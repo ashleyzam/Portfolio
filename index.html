@@ -11,7 +11,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-     
+               
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         
@@ -29,6 +32,8 @@
                       <a class="link" href="#knowledge">CONOCIMIENTOS</a>
                     </li>
                     <li class="item"><a class="link" href="#projects">PROYECTOS</a></li>
+                    <li class="item"><a class="link" href="#cite">CITA</a></li>
+
                     <li class="item"><a class="contacto1" href="#contact">CONTACTO</a></li>
                   </ul>
                 </nav>
@@ -46,10 +51,10 @@
                 <p class="saludo">¡Hola! Soy</p> 
                 <h1 class="nombre">Ashley Zamudio</h1>
                 <p class="descripcion"><img class="sparkle" src="imagenes/brillito.png"> Soon to be a junior Frontend Web Developer <img class="sparkle" src="imagenes/brillito.png"> </p>
-               <a class="boton" href="https://www.google.com"> LO QUE HAGO</a> 
+               <a class="boton" href="#projects"> LO QUE HAGO</a> 
              </div>
               
-                <img class="imagenuno" src="imagenes/dev.png"" />
+                <img class="imagenuno" src="imagenes/dev1.svg" />
               </div>
               <!--Final sección div flexbox-->
             
@@ -65,7 +70,7 @@
             <div class="grid">
                <div class="item1"><img class="imagen2" src="imagenes/html5.svg"><p class="titulo-c">HTML5</p></div> 
                <div class="item1"><img class="imagen2" src="imagenes/css-3.svg"><p class="titulo-c">CSS3</p></div>
-               <div class="item1"><img class="imagen2" src="imagenes/sass.svg"><p class="titulo-c">SASS</p></div>
+               <div class="item1"><img class="imagen2" src="imagenes/sass.svg"><p class="titulo-c">Sass</p></div>
                <div class="item1"><img class="imagen2" src="imagenes/logo-javascript.svg"><p class="titulo-c">JavaScript</p></div>
                <div class="item1"><img class="imagen2" src="imagenes/react-2.svg"><p class="titulo-c">React</p></div>
                <div class="item1"><img class="imagen2" src="imagenes/git.svg"><p class="titulo-c">Git</p></div> 
@@ -75,7 +80,7 @@
         <!--Final sección mis conocimientos-->
         
         <!--Inicio sección cita famoso-->
-        <section class="quote-section">
+        <section class="quote-section" id="cite">
           <div class="content">
             <i class="fas fa-quote-right quote-icon"></i>
             <blockquote>
@@ -90,30 +95,58 @@
         <!--Final sección cita famoso-->
         
             <!--Inicio sección mis proyectos-->
-            <section>
-              <h2>Mis proyectos</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-                aliquid deserunt quod quia tempore incidunt iusto fugit ex nisi possimus
-                accusantium asperiores odio libero molestias, laboriosam quae recusandae
-                provident iure!
-              </p>
-              <div></div>
+            <section class="seccion3" id="projects">
+              <div class="main2">
+                    <h2 class="tituloprojects">Mis proyectos</h2>
+                    <p class="parrafoprojects">Los proyectos que desarrollaré en mi camino con Ada</p>
+                     <div class="grid2">
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                     <div class="item2"><img class="imagen3" src="imagenes/funny.svg"> <p class="titulo-d">Portfolio</p></div>
+                  </div>
+              </div>
             </section>
         <!--Final Sección mis proyectos-->
         </main>
         
         
         <!--Inicio sección de contacto-->
-            <section>
-              <h2>Contactame</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo et
-                praesentium vitae corporis velit. Alias blanditiis natus sit voluptate
-                nihil dicta dolorum fugiat commodi earum, eligendi optio enim incidunt
-                rem.
-              </p>
-              <h2>Escribeme</h2>
+            <section class="contactsection" id="contact">
+              <div class="columna">
+    
+                <div class="contacto4">
+                  <div class="div-contactame">
+                     <h2>Contactame</h2><p class="parrafocontacto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo et
+                     praesentium vitae corporis velit. Alias blanditiis natus sit voluptate
+                     nihil dicta dolorum fugiat commodi earum, eligendi optio enim incidunt
+                     rem.</p>
+                  </div>
+                 
+                 <div class="div-escribeme">
+                   <h2>Escribeme</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint non enim quis quibusdam aliquid! Perspiciatis provident nesciunt numquam odio debitis, perferendis tempora fugit quos adipisci quod eaque, necessitatibus placeat omnis!</p>
+                   <form>
+                    <label>Nombre
+                     <input type="text" placeholder="Introduce tu nombre aquí"> 
+                    </label>
+                    <label>Apellido
+                      <input type="text" placeholder="Introduce tu apellido aquí"> 
+                     </label>
+                     <label>E-mail
+                      <input type="email" placeholder="example: adalovelace@gmail.com"> 
+                     </label>
+                   </form>
+                  </div>
+                 
+              </div>
+              </div>
+              
+              
+              
+             
             </section>
             <!--final sección de contacto-->
           </class="seccion">
