@@ -15,7 +15,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
-    </head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>   
+      </head>
     <body>
         
             
@@ -80,16 +81,16 @@
         <!--Final sección mis conocimientos-->
         
         <!--Inicio sección cita famoso-->
-        <section class="quote-section" id="cite">
+        <section class="sectionq" id="cite">
           <div class="content">
-            <i class="fas fa-quote-right quote-icon"></i>
+           <img class="cite" src="imagenes/citar.svg">
             <blockquote>
               <p class="quote">
                 Nuestras vidas se definen por las oportunidades, incluso las que perdemos
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex distinctio quae nisi aspernatur atque eligendi voluptate, soluta amet est sit libero cum quidem, ipsa magni maxime molestiae officiis corrupti commodi.
               </p>
             </blockquote>
-            <h2 class="quote-author">Someone</h2>
+            <h2 class="quoteautor">Someone</h2>
           </div>
         </section> 
         <!--Final sección cita famoso-->
@@ -115,42 +116,55 @@
         
         
         <!--Inicio sección de contacto-->
-            <section class="contactsection" id="contact">
-              <div class="columna">
-    
-                <div class="contacto4">
-                  <div class="div-contactame">
-                     <h2>Contactame</h2><p class="parrafocontacto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo et
-                     praesentium vitae corporis velit. Alias blanditiis natus sit voluptate
-                     nihil dicta dolorum fugiat commodi earum, eligendi optio enim incidunt
-                     rem.</p>
-                  </div>
-                 
-                 <div class="div-escribeme">
-                   <h2>Escribeme</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint non enim quis quibusdam aliquid! Perspiciatis provident nesciunt numquam odio debitis, perferendis tempora fugit quos adipisci quod eaque, necessitatibus placeat omnis!</p>
-                   <form>
-                    <label>Nombre
-                     <input type="text" placeholder="Introduce tu nombre aquí"> 
-                    </label>
-                    <label>Apellido
-                      <input type="text" placeholder="Introduce tu apellido aquí"> 
-                     </label>
-                     <label>E-mail
-                      <input type="email" placeholder="example: adalovelace@gmail.com"> 
-                     </label>
-                   </form>
-                  </div>
-                 
+        <section class="contactsection" id="contact">
+          <div class="columna">
+              <div class="div-contactame">
+                 <h2>Contactame</h2><p class="parrafocontacto">Puedes contactarme
+                   por mis redes sociales:</p>
+                   <ul>
+                     <li class="social-media-item"><i class="fab fa-twitter"></i>@ashleyzam</li>
+                     <li class="social-media-item"><i class="fab fa-github-alt"></i>        AshleyZam</li>
+                     
+                     <li class="social-media-item"><i class="fab fa-linkedin-in"></i>    Ashley Zamudio</li>
+                     <li class="social-media-item"><i class="fas fa-envelope"></i>    ashleyzam1998@gmail.com</li>
+                   </ul>
+                   
               </div>
+             
+             <div class="div-escribeme">
+               <h2>Escribeme</h2>
+               <form>
+                <div class="nombreYapellido">
+                <label>* Nombre</label>
+                 <input type="text" name="nombre" placeholder="Introduce tu nombre aquí"> 
+               
+                <label>* Apellido</label>
+                  <input type="text" name="lastname" placeholder="Introduce tu apellido aquí"> 
+               
+                </div>
+                <div class="e-mail">
+                 <label>* E-mail</label>
+                  <input type="email" name="email" placeholder="example: ashleyzam1998@gmail.com"> 
+                </div>
+                <div>
+                  <div class="msg">
+                    <label for="message">* Mensaje</label>
+                    <textarea name="Mensaje" id="message" cols="30" rows="10" placeholder="Escriba su mensaje aquí" aria-label="Mensaje" required=""></textarea>
+                  </div>
+                  <button class="btn" type="submit">
+                    Enviar
+                  </button>
+                  </div>
+                
+               </form>
               </div>
-              
-              
+          </div>              
+        </section>
               
              
             </section>
             <!--final sección de contacto-->
-          </class="seccion">
-        </html>
+      
         
     </body>
 </html>
