@@ -2,21 +2,25 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  box-shadow: 2px 2px 5px #999;
+}
 /*barra deslizantee*/
 header {
   background-color: rgb(255, 255, 255);
   padding: 23px 0;
   width: 100%;
-  box-shadow: 100px 15px 35px 10px rgba(167, 166, 166, 0.25);
+  box-shadow: 5px 2px 30px 2px rgb(104, 28, 63);
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 /*ancho de la barra y posicion: flex, flexend*/
 .nav {
   display: flex;
   justify-content: flex-end;
   padding: 10px 20px;
+  width: 100%;
 }
 /*margen de la barra*/
 .menu {
@@ -34,11 +38,11 @@ header {
 
 /*hovercontacto*/
 .contacto1:hover {
-  background-color: hotpink;
+  background-color: rgb(189, 133, 184);
 }
 .contacto1 {
   text-decoration: none;
-  background-color: #eb6498;
+  background-color: rgb(104, 28, 63);
   color: white;
   border-radius: 29px;
   padding: 5px 25px;
@@ -46,7 +50,7 @@ header {
 }
 /*hover links principales*/
 .link:hover {
-  color: rgb(241, 86, 171);
+  color: rgb(189, 133, 184);
 }
 
 /*quita propiedades de linea al link*/
@@ -56,15 +60,17 @@ header {
 }
 
 .seccion1 {
-  height: 600px;
   margin-top: 90px;
+  padding: 80px 50px 110px;
+  height: 100%;
 }
 
 .division1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 190px;
+  width: 100%;
+
 }
 .columna {
   width: 100%;
@@ -76,7 +82,8 @@ header {
   align-items: flex-start;
   text-align: left;
   margin-top: 130px;
-  width: 55%;
+  width: 50%;
+  border: 1px solid rgb(230, 8, 112);
 }
 
 /*saludo dentro del div*/
@@ -85,7 +92,6 @@ header {
   font-weight: 700;
   font-size: 35px;
   margin-top: 0;
-  margin-left: 80px;
   margin-bottom: 10px;
   color: rgb(90, 87, 87);
   font-family: "Bree Serif", serif;
@@ -95,7 +101,6 @@ header {
   margin-top: 0;
   margin-bottom: 5px;
   color: rgb(189, 133, 184);
-  margin-left: 79px;
   font-size: 53px;
   font-family: "Courgette", cursive;
 }
@@ -103,14 +108,13 @@ header {
 
 /*primera imagen dentro del primer div*/
 .imagenuno {
-  width: 42%;
-  margin-top: 120px;
-  margin-right: 400px;
+  width: 44%;
+  margin-top:112px;
+  border: 1px solid rgb(230, 8, 112);
 }
 /**/
 .descripcion {
   font-size: 17px;
-  margin-left: 64px;
   margin-top: 23px;
   color: gray;
   font-family: "Bree Serif", serif;
@@ -126,8 +130,7 @@ header {
   font-weight: 450px;
   color: white;
   margin-top: 40px;
-  margin-left: 70px;
-  background-color: #eb6498;
+  background-color: rgb(104, 28, 63);
   text-decoration: none;
   font-family: "Bree Serif", serif;
   letter-spacing: 1px;
@@ -158,10 +161,9 @@ header {
   font-size: 22px;
 }
 .main {
-  padding: 15px;
+  padding: 50px 5px 150px;
   margin: 0 auto;
-  width: 1000px;
-  height: 950px;
+  width: 80%;
   text-align: center;
 }
 .grid {
@@ -194,13 +196,10 @@ header {
 
 /***/
 .sectionq {
-  display: flex;
-  justify-content: center;
   padding: 90px 40px 105px;
   text-align: center;
-  background-color: rgb(192, 74, 153);
+  background-color: rgb(165, 136, 165);
 }
-
 
 .content {
   display: flex;
@@ -216,19 +215,23 @@ header {
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
   letter-spacing: 1px;
-  margin-bottom: 50px;
 
- 
+
 }
+
+
+#comilla{
+  font-size: 80px;
+  color: black;
+}
+#comilla:hover{
+  color: aqua;
+}
+
 .quoteautor{
   font-size: 2.5em;
-    color: white;
-    margin-bottom: 0;
-}
-.cite{
-  box-shadow: 1px 3px 10px 1px black;
-  width: 16%;
-  border-radius: 100px;
+  color: white;
+  margin-bottom: 0;
 }
 
 /*MIS PROYECTOS*/
@@ -237,18 +240,18 @@ header {
   margin-top: 90px;
 }
 .main2 {
-  padding: 15px;
+  padding: 50px 5px 150px;
   margin: 0 auto;
-  width: 900px;
-  height: 1200px;
+  width: 74%;
   text-align: center;
 }
 
 .grid2 {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: 35px;
-  margin-left: 20px;
+  width: 100%;
 }
 
 .tituloprojects {
@@ -265,13 +268,12 @@ header {
 }
 .item2 {
   background-color: white;
-  width: 220px;
+  width: 25%;
   border: 1px solid rgb(194, 193, 193);
-  height: 190px;
   margin: 10px;
   text-align: center;
   border-radius: 10px;
-  padding: 45px 30px 10px 16px;
+  padding: 70px 26px 70px 26px;
 }
 .item2:hover {
   border: 1px solid rgb(216, 70, 143);
@@ -298,7 +300,6 @@ header {
   background-color: white;
   padding: 100px 64px;
   border: 1.4px solid rgb(202, 196, 196);
-  border-radius: 16px;
   margin: 15px;
   border-radius: 15px;
 }
@@ -310,37 +311,51 @@ header {
 
 .social-media-item {
   display: block;
-  margin-top: 50px;
+  list-style: none;
+  margin-top: 45px;
   font-size: 20px;
-}
-i{
-  color: hotpink;
-  border-radius: 150px;
-  width: 8%;
-  font-size: 28px;
-  
-  line-height: 2.2rem;
-}
-i:hover{
- color: aqua;
-}
-li{
   font-family: "Bree Serif", serif;
+
+  
 }
-/****/
+.fab,  .fas{
+  display: block;
+  text-align: center;
+  background-color: white;
+  color: hotpink;
+  border-radius: 5em;
+  font-size: 1.2em;
+  margin-right: 10px;
+  padding: 6px 6px 6px;  
+}
+
+ .social-media-item:hover{
+ color: aqua;
+
+}
+
+.fab:hover, .fas:hover{
+  color: white;
+  background-color: hotpink;
+}
+
+
+/**sdf**/
 .div-escribeme {
   padding-left: 15px;
   width: 50%;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .nombreYapellido {
-  display: block;
+  display: flex; 
   margin-bottom: 20px;
+  
 }
 .e-mail {
   display: block;
-
   margin-bottom: 20px;
+
 }
 .msg {
   display: flex;
@@ -363,8 +378,8 @@ input:hover {
   border: 1.4px solid rgb(221, 18, 120);
 }
 label {
-  margin-bottom: 10px;
   display: block;
+  margin-bottom: 10px;
   font-weight: 400;
   margin-top: 7px;
   font-family: "Bree Serif", serif;
@@ -381,5 +396,46 @@ textarea:hover {
   border: none;
 }
 .btn:hover {
-  background-color: hotpink;
+  background-color:aqua;
+  color: rgb(230, 8, 112);
 }
+/*****/
+
+/**Footer**/
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 25px 80px;
+  background-color: hotpink;
+
+  color:black;
+}
+.social-media-footer{
+  list-style: none;
+  margin: 0 10px;
+}
+.social-media{
+  display: flex;
+  margin: 10px 0;
+  padding: 5px;
+}
+.social-media-links{
+  display: flex;
+  margin: 5px;
+}
+.social-media-foot{
+  list-style: none;
+  margin: 0 5px;
+
+}
+
+@media (max-width: 1100px){
+  header{ display: none;}
+
+
+}
+
+
+
