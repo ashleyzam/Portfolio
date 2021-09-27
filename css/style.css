@@ -250,8 +250,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%;
-  
+  width: 100%; 
 }
 .item2 {
   background-color: white;
