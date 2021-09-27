@@ -139,27 +139,7 @@ header {
   background-color: hotpink;
 }
 /*conocimientos*/
-.seccion2 {
-  background-color: rgb(247, 247, 247);
-  margin-top: 90px;
-}
-.titulo-conocimientos {
-  margin-top: 100px;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "Bree Serif", serif;
-}
-.parrafo-conocimientos {
-  margin-top: 30px;
-  font-family: "Bree Serif", serif;
-  font-size: 16px;
-  color: gray;
-  margin-bottom: 50px;
-}
-.titulo-c {
-  font-family: "Bree Serif", serif;
-  font-size: 22px;
-}
+
 .main {
   padding: 50px 5px 150px;
   margin: 0 auto;
@@ -187,6 +167,27 @@ header {
   border: 1px solid rgb(216, 70, 143);
   color: rgb(235, 0, 129);
 }
+.seccion2 {
+  background-color: rgb(247, 247, 247);
+  margin-top: 90px;
+}
+.titulo-conocimientos {
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Bree Serif", serif;
+}
+.parrafo-conocimientos {
+  margin-top: 30px;
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 50px;
+}
+.titulo-c {
+  font-family: "Bree Serif", serif;
+  font-size: 22px;
+}
 .imagen2 {
   width: 35%;
   margin: 15px;
@@ -209,40 +210,38 @@ header {
   width: 100%;
 }
 .quote {
-  margin-top: 50px;
-  width: 100%;
+  width: 80%;
   font-size: 37px;
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
   letter-spacing: 1px;
+  padding: 80px 40px 80px;
+ 
 
 
 }
 
 
-#comilla{
-  font-size: 80px;
+.comilla{
+  font-size: 2em;
   color: black;
 }
-#comilla:hover{
-  color: aqua;
-}
+
 
 .quoteautor{
   font-size: 2.5em;
   color: white;
-  margin-bottom: 0;
 }
 
 /*MIS PROYECTOS*/
 .seccion3 {
   background-color: #fff;
   margin-top: 90px;
+  padding: 50px 5px 150px;
 }
 .main2 {
-  padding: 50px 5px 150px;
   margin: 0 auto;
-  width: 74%;
+  width: 80%;
   text-align: center;
 }
 
@@ -253,6 +252,16 @@ header {
   margin-top: 35px;
   width: 100%;
 }
+.item2 {
+  background-color: white;
+  width: 21.67%;
+    border: 1px solid rgb(194, 193, 193);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 70px 25px 70px;
+}
+
 
 .tituloprojects {
   margin-top: 100px;
@@ -266,15 +275,7 @@ header {
   font-size: 16px;
   color: gray;
 }
-.item2 {
-  background-color: white;
-  width: 25%;
-  border: 1px solid rgb(194, 193, 193);
-  margin: 10px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 70px 26px 70px 26px;
-}
+
 .item2:hover {
   border: 1px solid rgb(216, 70, 143);
   color: rgb(235, 0, 129);
@@ -318,12 +319,12 @@ header {
 
   
 }
-.fab,  .fas{
+.fa-instagram,  .fa-github-alt, .fa-linkedin-in, .fa-envelope{
   display: block;
   text-align: center;
   background-color: white;
   color: hotpink;
-  border-radius: 5em;
+  border-radius: 1em;
   font-size: 1.2em;
   margin-right: 10px;
   padding: 6px 6px 6px;  
@@ -334,9 +335,10 @@ header {
 
 }
 
-.fab:hover, .fas:hover{
+.fa-instagram:hover,  .fa-github-alt:hover, .fa-linkedin-in:hover, .fa-envelope:hover{
   color: white;
   background-color: hotpink;
+  border: 1px solid white;
 }
 
 
