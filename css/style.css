@@ -81,7 +81,7 @@ header {
   text-align: left;
   margin-top: 130px;
   width: 50%;
-  border: 1px solid rgb(230, 8, 112);
+  /*border: 1px solid rgb(230, 8, 112);*/
 }
 
 /*saludo dentro del div*/
@@ -108,7 +108,7 @@ header {
 .imagenuno {
   width: 44%;
   margin-top:112px;
-  border: 1px solid rgb(230, 8, 112);
+  /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
 .descripcion {
@@ -436,9 +436,10 @@ footer{
 
 @media (max-width: 1100px){
   header{ display: none;}
-
-
+ 
+  .division1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-
-
-
+}
