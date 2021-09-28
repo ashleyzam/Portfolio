@@ -30,7 +30,7 @@ header {
 /*padding de palabras de la barra de navegación*/
 .item {
   padding: 0.25em 0.3125em;
-  margin-right: 32px;
+  margin-right: 2em;
   font-family: "Bree Serif", serif;
 }
 
@@ -42,9 +42,9 @@ header {
   text-decoration: none;
   background-color: rgb(104, 28, 63);
   color: white;
-  border-radius: 29px;
-  padding: 5px 25px;
-  letter-spacing: 1px;
+  border-radius: 1.81em;
+  padding:  0.31em 1.56em;
+  letter-spacing: 0.06em;
 }
 /*hover links principales*/
 .link:hover {
@@ -58,8 +58,8 @@ header {
 }
 
 .seccion1 {
-  margin-top: 90px;
-  padding: 80px 50px 110px;
+  margin-top: 5.62;
+  padding: 12em 8em 13em;
   height: 100%;
 }
 
@@ -79,27 +79,27 @@ header {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  margin-top: 130px;
+  margin-top: 8.125em;
   width: 50%;
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 
 /*saludo dentro del div*/
 .saludo {
-  width: 600px;
+  width: 40%;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.18em;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0.62em;
   color: rgb(90, 87, 87);
   font-family: "Bree Serif", serif;
 }
 /*nombre h1 dentro del div*/
 .nombre {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0.31em;
   color: rgb(189, 133, 184);
-  font-size: 53px;
+  font-size: 3.31em;
   font-family: "Courgette", cursive;
 }
 /**/
@@ -107,31 +107,31 @@ header {
 /*primera imagen dentro del primer div*/
 .imagenuno {
   width: 44%;
-  margin-top:112px;
+  margin-top:7em;
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
 .descripcion {
-  font-size: 17px;
-  margin-top: 23px;
+  font-size: 1.06;
+  margin-top: 1.43em;
   color: gray;
   font-family: "Bree Serif", serif;
 }
 .sparkle {
-  width: 18px;
+  width: 1.12em;
 }
 
 /*Botón de LO QUE HAGO*/
 .boton {
-  padding: 10px 25px;
-  border-radius: 100px;
-  font-weight: 450px;
+  padding: 0.62em 1.56em;
+  border-radius: 6.25em;
+  font-weight: 28.12em;
   color: white;
-  margin-top: 40px;
+  margin-top: 2.5em;
   background-color: rgb(104, 28, 63);
   text-decoration: none;
   font-family: "Bree Serif", serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.06em;
 }
 .boton:hover {
   background-color: hotpink;
@@ -139,10 +139,11 @@ header {
 /*conocimientos*/
 
 .main {
-  padding: 50px 5px 150px;
+  padding: 3.12em 0.31em 9.37em;
   margin: 0 auto;
-  width: 63%;
+  width: 100%;
   text-align: center;
+  max-width: 850px;
  
   
 }
@@ -156,47 +157,47 @@ header {
 .item1 {
   background-color: white;
   width: 26%;
-  border: 1px solid rgb(194, 193, 193);
-  margin: 10px;
+  border: 0.06em solid rgb(194, 193, 193);
+  margin:  0.62em;
   text-align: center;
-  border-radius: 10px;
-  padding: 50px 20px 50px;
+  border-radius:  0.62em;
+  padding: 3.12em 1.25em 3.12em;
 }
 .item1:hover {
-  border: 1px solid rgb(216, 70, 143);
+  border: 0.06em solid rgb(216, 70, 143);
   color: rgb(235, 0, 129);
 }
 .seccion2 {
   background-color: rgb(247, 247, 247);
-  margin-top: 90px;
+  margin-top: 5.62em;
 }
 .titulo-conocimientos {
-  margin-top: 100px;
-  font-size: 50px;
+  margin-top: 6.25em;
+  font-size: 3.12em;
   font-weight: bold;
   font-family: "Bree Serif", serif;
 }
 .parrafo-conocimientos {
-  margin-top: 30px;
+  margin-top: 1.87em;
   font-family: "Bree Serif", serif;
-  font-size: 16px;
+  font-size: 1em;
   color: gray;
-  margin-bottom: 50px;
+  margin-bottom: 3.12em;
 }
 .titulo-c {
   font-family: "Bree Serif", serif;
-  font-size: 22px;
+  font-size: 1.37em;
 }
 .imagen2 {
   width: 35%;
-  margin: 15px;
+  margin: 0.93em;
 }
 
 /**FIN CONOCIMIENTOS**/
 
 /***/
 .sectionq {
-  padding: 90px 40px 105px;
+  padding: 5.62em 2.5em 6.56em;
   text-align: center;
   background-color: rgb(165, 136, 165);
 }
@@ -210,11 +211,11 @@ header {
 }
 .quote {
   width: 80%;
-  font-size: 37px;
+  font-size: 2.31em;
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
-  letter-spacing: 1px;
-  padding: 80px 40px 80px;
+  letter-spacing: 0.06em;
+  padding: 5em 2.5em 5em;
  
 
 
@@ -235,14 +236,15 @@ header {
 /*MIS PROYECTOS*/
 .seccion3 {
   background-color: #fff;
-  padding: 0px 5px 150px;
+  padding: 0em 0.31em 9.37em;
  
 }
 .main2 {
-  padding: 50px 5px 150px;
+  padding: 3.12em 0.31em 9.37em;
   margin: 0 auto;
-  width: 83%;
+  width: 100%;
   text-align: center;
+  max-width: 1100px;
 
 }
 
@@ -255,22 +257,22 @@ header {
 .item2 {
   background-color: white;
   width: 26.7%;
-  border: 1px solid rgb(194, 193, 193);
-  margin: 10px;
+  border: 0.062em solid rgb(194, 193, 193);
+  margin: 0.6em;
   text-align: center;
-  border-radius: 10px;
-  padding: 100px 25px 100px;
+  border-radius: 0.6em;
+  padding: 6.25em 1.56em 6.25em;
 }
 
 
 .tituloprojects {
-  margin-top: 100px;
-  font-size: 50px;
+  margin-top:  1.5em;
+  font-size: 3.30em;
   font-weight: bold;
   font-family: "Bree Serif", serif;
 }
 .parrafoprojects {
-  margin-top: 30px;
+  margin-top: 2em;
   font-family: "Bree Serif", serif;
   font-size: 16px;
   color: gray;
@@ -350,10 +352,24 @@ header {
   display: flex;
   flex-direction: column;
 }
+.titulof{
+  font-family: "Bree Serif", serif;
+  margin-bottom: 30px;
+  font-size: 3em;
+  
+}
+.parrafocontacto{
+  font-family: "Bree Serif", serif;
+  margin-top: 35px;
+ 
+}
 .nombreYapellido {
   display: flex; 
   margin-bottom: 20px;
   
+}
+.apellidoform{
+  margin-left: 40px;
 }
 .e-mail {
   display: block;
@@ -368,25 +384,28 @@ header {
 textarea,
 input {
   display: block;
-  padding: 4px 6px;
+  padding: 10px 17px;
   outline: none;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: #f0f3f3ea;
   border: 1px solid #857f7f;
   box-shadow: 0px 1px 1px 1px rgb(219, 218, 218);
   font-family: "Bree Serif", serif;
 }
 input:hover {
-  border: 1.4px solid rgb(221, 18, 120);
+  border: 1px solid rgb(221, 18, 120);
 }
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: 400;
-  margin-top: 7px;
+ 
   font-family: "Bree Serif", serif;
+  margin-right: 25px
 }
+
+
 textarea:hover {
   border: 1.4px solid hotpink;
   color: rgb(206, 18, 112);
@@ -442,5 +461,6 @@ página**/
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 1px;
 }
 }
