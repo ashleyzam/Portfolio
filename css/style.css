@@ -331,6 +331,7 @@ header {
   font-size: 1.2em;
   margin-right: 10px;
   padding: 6px 6px 6px;  
+  border: 1px solid white;
 }
 
  .social-media-item:hover{
@@ -341,7 +342,7 @@ header {
 .fa-instagram:hover,  .fa-github-alt:hover, .fa-linkedin-in:hover, .fa-envelope:hover{
   color: white;
   background-color: hotpink;
-  border: 1px solid white;
+ 
 }
 
 
@@ -457,10 +458,31 @@ página**/
 @media (max-width: 1100px){
   header{ display: none;}
  
-  .division1{
+  .division1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  
+  .division2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1px;
+  
+   
+   
 }
+.grid{
+  padding: 20px 100px;
+  margin: 0.5em;
+}
+
+.grid2{
+  padding: 20px 55px;
+  margin: 0.5em;
+}
+
 }
