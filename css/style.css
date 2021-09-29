@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/*barra deslizantee*/
+/*barra de navegación*/
 header {
   background-color: rgb(255, 255, 255);
   padding: 1.43em 0;
@@ -17,7 +17,7 @@ header {
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 0.625em 1.25em;
+  padding: 1em 0.9em;
   width: 100%;
 }
 /*margen de la barra*/
@@ -34,7 +34,7 @@ header {
   font-family: "Bree Serif", serif;
 }
 
-/*hovercontacto*/
+/*hover contacto*/
 .contacto1:hover {
   background-color: rgb(189, 133, 184);
 }
@@ -43,7 +43,7 @@ header {
   background-color: rgb(104, 28, 63);
   color: white;
   border-radius: 1.81em;
-  padding:  0.31em 1.56em;
+  padding: 0.31em 1.56em;
   letter-spacing: 0.06em;
 }
 /*hover links principales*/
@@ -51,15 +51,15 @@ header {
   color: rgb(189, 133, 184);
 }
 
-/*quita propiedades de linea al link*/
+/*quitar propiedades de linea al link*/
 .link {
   text-decoration: none;
   color: black;
 }
-
+/*Inicio de sección saludo*/
 .seccion1 {
   margin-top: 5.62;
-  padding: 12em 8em 13em;
+  padding: 12em 8em 11em;
   height: 100%;
 }
 
@@ -68,7 +68,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-
 }
 .columna {
   width: 100%;
@@ -106,8 +105,11 @@ header {
 
 /*primera imagen dentro del primer div*/
 .imagenuno {
-  width: 44%;
-  margin-top:7em;
+  width: 45%;
+  margin-top: 7em;
+  border-radius: 12em;
+
+  box-shadow: 0px 7px 15px 7px rgb(223, 160, 197);
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
@@ -136,7 +138,9 @@ header {
 .boton:hover {
   background-color: hotpink;
 }
-/*conocimientos*/
+/*Final sección saludo**/
+
+/*Inicio sección mis conocimientos*/
 
 .main {
   padding: 3.12em 0.31em 9.37em;
@@ -144,8 +148,6 @@ header {
   width: 100%;
   text-align: center;
   max-width: 850px;
- 
-  
 }
 .grid {
   display: flex;
@@ -158,9 +160,9 @@ header {
   background-color: white;
   width: 26%;
   border: 0.06em solid rgb(194, 193, 193);
-  margin:  0.62em;
+  margin: 0.62em;
   text-align: center;
-  border-radius:  0.62em;
+  border-radius: 0.62em;
   padding: 3.12em 1.25em 3.12em;
 }
 .item1:hover {
@@ -172,7 +174,7 @@ header {
   margin-top: 5.62em;
 }
 .titulo-conocimientos {
-  margin-top: 6.25em;
+  margin-top: 2em;
   font-size: 3.12em;
   font-weight: bold;
   font-family: "Bree Serif", serif;
@@ -195,7 +197,7 @@ header {
 
 /**FIN CONOCIMIENTOS**/
 
-/***/
+/*INICIO SECCIÓN CITA FAMOSO**/
 .sectionq {
   padding: 5.62em 2.5em 6.56em;
   text-align: center;
@@ -215,29 +217,24 @@ header {
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
   letter-spacing: 0.06em;
-  padding: 5em 2.5em 5em;
- 
-
-
+  padding: 2em 2.5em 2em;
 }
 
-
-.comilla{
+.comilla {
   font-size: 2em;
   color: black;
 }
 
-
-.quoteautor{
+.quoteautor {
   font-size: 2.5em;
   color: white;
 }
+/** FINAL SECCIÓN CITA FAMOSO **/
 
-/*MIS PROYECTOS*/
+/** INICIO DE MIS PROYECTOS **/
 .seccion3 {
   background-color: #fff;
   padding: 0em 0.31em 9.37em;
- 
 }
 .main2 {
   padding: 3.12em 0.31em 9.37em;
@@ -245,14 +242,13 @@ header {
   width: 100%;
   text-align: center;
   max-width: 1100px;
-
 }
 
 .grid2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%; 
+  width: 100%;
 }
 .item2 {
   background-color: white;
@@ -264,10 +260,9 @@ header {
   padding: 6.25em 1.56em 6.25em;
 }
 
-
 .tituloprojects {
-  margin-top:  1.5em;
-  font-size: 3.30em;
+  margin-top: 1.5em;
+  font-size: 3.3em;
   font-weight: bold;
   font-family: "Bree Serif", serif;
 }
@@ -288,7 +283,11 @@ header {
   height: 80px;
   margin: 15px;
 }
-/*Sección de contacto*/
+
+/** FINAL SECCIÓN MIS PROYECTOS**/
+
+
+/** INICIO SECCIÓN DE CONTACTO **/
 .contactsection {
   display: flex;
   justify-content: center;
@@ -307,6 +306,8 @@ header {
   margin: 15px;
   border-radius: 15px;
 }
+/** CONTACTAME **/
+
 .div-contactame {
   padding-right: 15px;
   width: 50%;
@@ -319,10 +320,11 @@ header {
   margin-top: 45px;
   font-size: 20px;
   font-family: "Bree Serif", serif;
-
-  
 }
-.fa-instagram,  .fa-github-alt, .fa-linkedin-in, .fa-envelope{
+.fa-instagram,
+.fa-github-alt,
+.fa-linkedin-in,
+.fa-envelope {
   display: block;
   text-align: center;
   background-color: white;
@@ -330,52 +332,50 @@ header {
   border-radius: 1em;
   font-size: 1.2em;
   margin-right: 10px;
-  padding: 6px 6px 6px;  
+  padding: 6px 6px 6px;
   border: 1px solid white;
 }
 
- .social-media-item:hover{
- color: aqua;
-
+.social-media-item:hover {
+  color: aqua;
 }
 
-.fa-instagram:hover,  .fa-github-alt:hover, .fa-linkedin-in:hover, .fa-envelope:hover{
+.fa-instagram:hover,
+.fa-github-alt:hover,
+.fa-linkedin-in:hover,
+.fa-envelope:hover {
   color: white;
   background-color: hotpink;
- 
 }
 
-
-/**sdf**/
+/** ESCRIBEME **/
 .div-escribeme {
   padding-left: 15px;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-.titulof{
+.titulof {
   font-family: "Bree Serif", serif;
   margin-bottom: 30px;
   font-size: 3em;
-  
 }
-.parrafocontacto{
+.parrafocontacto {
   font-family: "Bree Serif", serif;
   margin-top: 35px;
- 
 }
 .nombreYapellido {
-  display: flex; 
+  display: flex;
   margin-bottom: 20px;
-  
+
 }
-.apellidoform{
-  margin-left: 40px;
+.apellidoform {
+  margin-left: 30px;
+
 }
 .e-mail {
   display: block;
   margin-bottom: 20px;
-
 }
 .msg {
   display: flex;
@@ -387,29 +387,28 @@ input {
   display: block;
   padding: 10px 17px;
   outline: none;
-  width: 100%;
+  width: 90%;
   border-radius: 30px;
   background-color: #f0f3f3ea;
-  border: 1px solid #857f7f;
+  border: 1px solid #f3efef;
   box-shadow: 0px 1px 1px 1px rgb(219, 218, 218);
   font-family: "Bree Serif", serif;
+  transition: 0.5s;
 }
-input:hover {
-  border: 1px solid rgb(221, 18, 120);
+input:focus {
+  box-shadow: 0 0px 3px 1px rgb(221, 18, 120);
 }
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: 400;
- 
+
   font-family: "Bree Serif", serif;
-  margin-right: 25px
+ 
 }
 
-
-textarea:hover {
-  border: 1.4px solid hotpink;
-  color: rgb(206, 18, 112);
+textarea:focus {
+  box-shadow: 0 0px 5px 1px rgb(221, 18, 120);
 }
 .btn {
   background-color: rgb(230, 8, 112);
@@ -419,13 +418,13 @@ textarea:hover {
   border: none;
 }
 .btn:hover {
-  background-color:aqua;
+  background-color: aqua;
   color: rgb(230, 8, 112);
 }
-/*****/
+/** FIN SECCIÓN DE CONTACTO ***/
 
-/**Footer**/
-footer{
+/** INICIO FOOTER **/
+footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -433,56 +432,55 @@ footer{
   padding: 100px 25px 80px;
   background-color: hotpink;
 
-  color:black;
+  color: black;
 }
-.social-media-footer{
+.social-media-footer {
   list-style: none;
   margin: 0 10px;
 }
-.social-media{
+.social-media {
   display: flex;
   margin: 10px 0;
   padding: 5px;
 }
-.social-media-links{
+.social-media-links {
   display: flex;
   margin: 5px;
 }
-.social-media-foot{
+.social-media-foot {
   list-style: none;
   margin: 0 5px;
-
 }
-/**query del navbar y la primera división de mi 
-página**/
-@media (max-width: 1100px){
-  header{ display: none;}
- 
+/** INICIO DE MEDIA QUERIES **/
+@media (max-width: 1100px) {
+  header {
+    display: none;
+  }
+
   .division1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-  
   }
-  
-  
+
   .division2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  
-   
-   
-}
-.grid{
-  padding: 20px 100px;
-  margin: 0.5em;
-}
+  }
+  .grid {
+    display: flex;
+    align-items: center;
+  }
+  .main{
+    max-width: 500px;
+  }
+  .item1{
+    width: 37.6%;
+  }
 
-.grid2{
-  padding: 20px 55px;
-  margin: 0.5em;
-}
-
+  .grid2 {
+    padding: 20px 55px;
+    margin: 0.5em;
+  }
 }
