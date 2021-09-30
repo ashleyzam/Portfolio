@@ -2,10 +2,14 @@
   margin: 0;
   padding: 0;
 }
+body{
+  box-shadow: inset inset inset 15px black
+}
 
 /*barra de navegación*/
 header {
-  background-color: rgb(255, 255, 255);
+  background: rgb(0,0,0);
+  background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
   padding: 1.43em 0;
   width: 100%;
   box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(104, 28, 63);
@@ -40,11 +44,12 @@ header {
 }
 .contacto1 {
   text-decoration: none;
-  background-color: rgb(104, 28, 63);
+  background-color: rgb(42, 21, 117);
   color: white;
   border-radius: 1.81em;
   padding: 0.31em 1.56em;
   letter-spacing: 0.06em;
+  box-shadow: 1px 1px 15px 1px white;
 }
 /*hover links principales*/
 .link:hover {
@@ -54,7 +59,7 @@ header {
 /*quitar propiedades de linea al link*/
 .link {
   text-decoration: none;
-  color: black;
+  color: rgb(224, 217, 217);
 }
 /*Inicio de sección saludo*/
 .seccion1 {
@@ -97,7 +102,7 @@ header {
 .nombre {
   margin-top: 0;
   margin-bottom: 0.31em;
-  color: rgb(189, 133, 184);
+  color: rgb(209, 137, 149);
   font-size: 3.31em;
   font-family: "Courgette", cursive;
 }
@@ -105,18 +110,17 @@ header {
 
 /*primera imagen dentro del primer div*/
 .imagenuno {
-  width: 45%;
+  width: 50%;
   margin-top: 7em;
   border-radius: 12em;
 
-  box-shadow: 0px 7px 15px 7px rgb(223, 160, 197);
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
 .descripcion {
   font-size: 1.06;
   margin-top: 1.43em;
-  color: gray;
+  color: rgb(163, 85, 124);
   font-family: "Bree Serif", serif;
 }
 .sparkle {
@@ -130,18 +134,22 @@ header {
   font-weight: 28.12em;
   color: white;
   margin-top: 2.5em;
-  background-color: rgb(104, 28, 63);
+  background-color: rgb(29, 28, 104);
   text-decoration: none;
   font-family: "Bree Serif", serif;
   letter-spacing: 0.06em;
 }
 .boton:hover {
-  background-color: hotpink;
+  background-color: rgb(124, 84, 133);
 }
 /*Final sección saludo**/
 
 /*Inicio sección mis conocimientos*/
+.seccion2 {
+  background-color: rgb(247, 247, 247);
+  margin-top: 1em;
 
+}
 .main {
   padding: 3.12em 0.31em 9.37em;
   margin: 0 auto;
@@ -166,13 +174,10 @@ header {
   padding: 3.12em 1.25em 3.12em;
 }
 .item1:hover {
-  border: 0.06em solid rgb(216, 70, 143);
-  color: rgb(235, 0, 129);
+  border: 0.06em solid rgb(15, 54, 224);
+  color: rgb(65, 99, 104);
 }
-.seccion2 {
-  background-color: rgb(247, 247, 247);
-  margin-top: 5.62em;
-}
+
 .titulo-conocimientos {
   margin-top: 2em;
   font-size: 3.12em;
@@ -398,6 +403,13 @@ input {
 input:focus {
   box-shadow: 0 0px 3px 1px rgb(221, 18, 120);
 }
+
+input:valid, textarea:valid {
+    border: 1px solid #88c459;
+}
+input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown) {
+    border: 1px solid #f5414f;
+}
 label {
   display: block;
   margin-bottom: 10px;
@@ -468,19 +480,47 @@ footer {
     align-items: center;
     text-align: center;
   }
-  .grid {
-    display: flex;
-    align-items: center;
+  .btn{
+    padding: 2px;
   }
-  .main{
-    max-width: 500px;
-  }
-  .item1{
-    width: 37.6%;
+   
+  .item2{
+    width: 26%;
   }
 
-  .grid2 {
-    padding: 20px 55px;
-    margin: 0.5em;
+.main2{
+  max-width: 1100px
+}
+}
+
+@media (max-width: 920px){
+
+.item1{
+  width: 34.3%;
+
+}
+.main{
+max-width: 400px
+}
+ 
+.item2{
+  width: 26%;
+}
+
+.main2{
+max-width: 2000px
+}
+
+
+}
+
+@media (max-width: 900px){
+  
+  .item2{
+    width: 39%;
   }
+
+.main2{
+  max-width: 650px
+}
 }
