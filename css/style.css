@@ -9,7 +9,7 @@ body{
 /*barra de navegación*/
 header {
   background: rgb(0,0,0);
-  background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
+  background-image: linear-gradient(to right, rgba(114, 10, 233, 0.966), black);
   padding: 1.43em 0;
   width: 100%;
   box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(104, 28, 63);
@@ -21,7 +21,7 @@ header {
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 1em 0.9em;
+  padding: 1em 0.1em;
   width: 100%;
 }
 /*margen de la barra*/
@@ -34,13 +34,13 @@ header {
 /*padding de palabras de la barra de navegación*/
 .item {
   padding: 0.25em 0.3125em;
-  margin-right: 2em;
+  margin-right: 3em;
   font-family: "Bree Serif", serif;
 }
 
 /*hover contacto*/
 .contacto1:hover {
-  background-color: rgb(189, 133, 184);
+  background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
 }
 .contacto1 {
   text-decoration: none;
@@ -65,32 +65,33 @@ header {
 .seccion1 {
   margin-top: 5.62;
   padding: 12em 8em 11em;
-  height: 100%;
+  /*min-height: 1100px;*/
+
 }
 
 .division1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
-}
-.columna {
-  width: 100%;
+  max-width: 1100;
 }
 
+
 .division2 {
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
   margin-top: 8.125em;
-  width: 50%;
+
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 
 /*saludo dentro del div*/
 .saludo {
-  width: 40%;
   font-weight: 700;
   font-size: 2.18em;
   margin-top: 0;
@@ -100,25 +101,27 @@ header {
 }
 /*nombre h1 dentro del div*/
 .nombre {
-  margin-top: 0;
-  margin-bottom: 0.31em;
-  color: rgb(209, 137, 149);
+  /*margin-top: 0;*/
+ 
+  color: rgba(219, 21, 193, 0.966);
   font-size: 3.31em;
-  font-family: "Courgette", cursive;
+  font-family: 'Carter One', cursive;;
+  
 }
 /**/
 
 /*primera imagen dentro del primer div*/
 .imagenuno {
   width: 50%;
-  margin-top: 7em;
-  border-radius: 12em;
+  max-width: 490px;
+  margin-top: 4em;
+
 
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
 .descripcion {
-  font-size: 1.06;
+  font-size: 1.4em;
   margin-top: 1.43em;
   color: rgb(163, 85, 124);
   font-family: "Bree Serif", serif;
@@ -134,13 +137,13 @@ header {
   font-weight: 28.12em;
   color: white;
   margin-top: 2.5em;
-  background-color: rgb(29, 28, 104);
+  background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
   text-decoration: none;
   font-family: "Bree Serif", serif;
   letter-spacing: 0.06em;
 }
 .boton:hover {
-  background-color: rgb(124, 84, 133);
+  background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
 }
 /*Final sección saludo**/
 
@@ -302,7 +305,7 @@ header {
 }
 
 .columna {
-  width: 80%;
+  width: 60%;
   display: flex;
   text-align: left;
   background-color: white;
@@ -325,6 +328,9 @@ header {
   margin-top: 45px;
   font-size: 20px;
   font-family: "Bree Serif", serif;
+
+   
+  
 }
 .fa-instagram,
 .fa-github-alt,
@@ -333,7 +339,7 @@ header {
   display: block;
   text-align: center;
   background-color: white;
-  color: hotpink;
+  color: rgba(57, 21, 219, 0.966);
   border-radius: 1em;
   font-size: 1.2em;
   margin-right: 10px;
@@ -342,7 +348,7 @@ header {
 }
 
 .social-media-item:hover {
-  color: aqua;
+  color: violet;
 }
 
 .fa-instagram:hover,
@@ -350,7 +356,7 @@ header {
 .fa-linkedin-in:hover,
 .fa-envelope:hover {
   color: white;
-  background-color: hotpink;
+  background-color: rgba(57, 21, 219, 0.966);
 }
 
 /** ESCRIBEME **/
@@ -401,7 +407,7 @@ input {
   transition: 0.5s;
 }
 input:focus {
-  box-shadow: 0 0px 3px 1px rgb(221, 18, 120);
+  box-shadow: 0 0px 3px 1px rgba(57, 21, 219, 0.966);
 }
 
 input:valid, textarea:valid {
@@ -420,18 +426,18 @@ label {
 }
 
 textarea:focus {
-  box-shadow: 0 0px 5px 1px rgb(221, 18, 120);
+  box-shadow: 0 0px 5px 1px rgba(57, 21, 219, 0.966);
 }
 .btn {
-  background-color: rgb(230, 8, 112);
+  background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
   padding: 5px 35px;
   border-radius: 15px;
   color: white;
   border: none;
 }
 .btn:hover {
-  background-color: aqua;
-  color: rgb(230, 8, 112);
+  background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
+
 }
 /** FIN SECCIÓN DE CONTACTO ***/
 
@@ -442,9 +448,9 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 100px 25px 80px;
-  background-color: hotpink;
+  background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
 
-  color: black;
+  color: white;
 }
 .social-media-footer {
   list-style: none;
@@ -490,6 +496,9 @@ footer {
 
 .main2{
   max-width: 1100px
+}
+.imagenuno{
+  max-width: 800px;
 }
 }
 
