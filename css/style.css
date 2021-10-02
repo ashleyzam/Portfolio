@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  box-shadow: inset inset inset 15px black;
-}
+
 
 /*barra de navegación*/
 header {
@@ -40,7 +38,7 @@ header {
 
 /*hover contacto*/
 .contacto1:hover {
-  background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
+  background-image: linear-gradient(to right, rgba(75, 49, 218, 0.966), black);
 }
 .contacto1 {
   text-decoration: none;
@@ -66,6 +64,8 @@ header {
   margin-top: 5.62;
   padding: 12em 8em 11em;
   /*min-height: 1100px;*/
+
+
 }
 
 .division1 {
@@ -214,9 +214,15 @@ header {
 
 /*INICIO SECCIÓN CITA FAMOSO**/
 .sectionq {
+  
   padding: 5.62em 2.5em 6.56em;
   text-align: center;
-  background-color: rgb(165, 136, 165);
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagenes/fondofrida.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 
 .content {
@@ -228,11 +234,12 @@ header {
 }
 .quote {
   width: 80%;
-  font-size: 2.31em;
+  font-size: 3.31em;
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
   letter-spacing: 0.06em;
   padding: 2em 2.5em 2em;
+  text-transform: uppercase;
 }
 
 .comilla {
@@ -244,6 +251,7 @@ header {
   font-size: 2.5em;
   color: white;
 }
+
 /** FINAL SECCIÓN CITA FAMOSO **/
 
 /** INICIO DE MIS PROYECTOS **/
@@ -405,10 +413,11 @@ input {
   border: 1px solid #f3efef;
   box-shadow: 0px 1px 1px 1px rgb(219, 218, 218);
   font-family: "Bree Serif", serif;
-  transition: 0.5s;
+  
 }
-input:focus {
+input:focus, textarea:focus  {
   box-shadow: 0 0px 3px 1px rgba(57, 21, 219, 0.966);
+  transition: 0.9s;
 }
 
 label {
@@ -418,9 +427,8 @@ label {
   font-family: "Bree Serif", serif;
 }
 
-textarea:focus {
-  box-shadow: 0 0px 5px 1px rgba(57, 21, 219, 0.966);
-}
+
+
 .btn {
   background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
   padding: 5px 35px;
@@ -472,7 +480,10 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
+.seccion2{
+  align-items: center;
+  justify-content: center;
+}
   .division2 {
     flex-direction: column;
     align-items: center;
