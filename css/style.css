@@ -103,7 +103,11 @@ header {
 .nombre {
   /*margin-top: 0;*/
  
-  color: rgba(219, 21, 193, 0.966);
+  font-size: 72px;  
+  background: -webkit-linear-gradient(left top, rgb(38, 0, 255), rgb(255, 0, 85));
+  background: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(255, 0, 85));
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent; 
   font-size: 3.31em;
   font-family: 'Carter One', cursive;;
   
@@ -175,10 +179,12 @@ header {
   text-align: center;
   border-radius: 0.62em;
   padding: 3.12em 1.25em 3.12em;
+  
 }
 .item1:hover {
-  border: 0.06em solid rgb(15, 54, 224);
+  border: 0.08em solid rgb(15, 54, 224);
   color: rgb(65, 99, 104);
+ 
 }
 
 .titulo-conocimientos {
@@ -410,12 +416,7 @@ input:focus {
   box-shadow: 0 0px 3px 1px rgba(57, 21, 219, 0.966);
 }
 
-input:valid, textarea:valid {
-    border: 1px solid #88c459;
-}
-input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown) {
-    border: 1px solid #f5414f;
-}
+
 label {
   display: block;
   margin-bottom: 10px;
