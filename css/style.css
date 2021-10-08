@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-boxa;
 }
-
+body{
+  box-shadow: -10px 2px 25px 3px #2324251e inset;
+}
 /*barra de navegación*/
 header {
   background: rgb(0, 0, 0);
@@ -521,10 +523,10 @@ footer {
   .imagenuno {
     max-width: 500px;
   
-  }
+  }/*
   .seccion3 .main2 .grid2 .item2{
   width: 42.4%;
-  }
+  }*/
   .columna{
     flex-direction: column;
     padding: 5em 1em 5em;
@@ -544,6 +546,11 @@ footer {
   .div-escribeme{
     width: 100%;
   }
+  input, textarea{
+    width: 80%;
+
+  }
+
    }
 
  
@@ -556,24 +563,41 @@ footer {
   .main {
     max-width: 400px;
   }
-
+/*
   .item2 {
-    width: 26%;
-  }
-
-  .main2 {
-    max-width: 2000px;
+    width: 25%;
   }
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
   .item2 {
-    width: 39%;
+    width: 25%;
   }
+ 
+   }*/
 
+   @media (max-width: 400px) {
+     .item1{
+       width: 76%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+     }
+     .main{
+       max-width: 400px;
+     }
+     .titulo-conocimientos{
+       font-size: 1.9em;
+     }
+     .parrafo-conocimientos{
+       font-size: 0.8em;
+     }
+   }
+/*
   .main2 {
-    max-width: 650px;
+    max-width: 900px;
   }
+  /*
   .sectionq {
     height: 100%;
     background-image: url(../imagenes/fondofrida.jpg);
@@ -602,11 +626,13 @@ footer {
 
  @media (max-width: 580px){
 
-
-  .division1{
+  .division1 {
     flex-direction: column;
-    font-size: 1em;
-  }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
    .seccion1{
      background-color: black;
    }
@@ -621,5 +647,29 @@ footer {
      background-repeat: no-repeat;
      background-position:center;
    }
+   .links-social-media{
+    width: 100%;
+  }
+  .link-social-media{
+    font-size: 0.7em ;
+  }
  }
 
+ @media (max-width: 350px) {
+ .main {
+     width: 100%;
+     max-width: 190px;
+      }
+      .titulo-conocimientos{
+        font-size: 1em;
+      }
+      .imagen2{
+        width: 30%
+      }
+.grid{
+  width: 100%;
+}
+    .item1{
+    width: 50%;
+    }
+    }
