@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-boxa;
 }
 
 /*barra de navegación*/
@@ -9,7 +10,7 @@ header {
   background-image: linear-gradient(to right, rgba(114, 10, 233, 0.966), black);
   padding: 1.43em 0;
   width: 100%;
-  box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(104, 28, 63);
+  box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(252, 252, 252);
   position: fixed;
   top: 0;
   z-index: 1;
@@ -60,8 +61,14 @@ header {
 }
 /*Inicio de sección saludo*/
 .seccion1 {
+
   margin-top: 5.62;
   padding: 12em 8em 11em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.86em;
+
   /*min-height: 1100px;*/
 }
 
@@ -73,7 +80,7 @@ header {
   max-width: 1100;
 }
 
-.division2 {
+ .division2 {
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -98,7 +105,7 @@ header {
 .nombre {
   /*margin-top: 0;*/
 
-  font-size: 72px;
+  font-size: 2em ;
   background: -webkit-linear-gradient(
     left top,
     rgb(38, 0, 255),
@@ -111,29 +118,29 @@ header {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.31em;
+  font-size: 3.12em;
   font-family: "Carter One", cursive;
 }
 /**/
 
 /*primera imagen dentro del primer div*/
 .imagenuno {
-  width: 50%;
-  max-width: 490px;
+  width: 100%;
+max-width: 450px;
   margin-top: 4em;
-
+border-radius: 100%;
+box-shadow: 0px 2em 5em 1em rgb(25, 29, 236);
+background-color: rgb(72, 72, 236);
   /*border: 1px solid rgb(230, 8, 112);*/
 }
 /**/
 .descripcion {
-  font-size: 1.4em;
+  font-size: 1.19em;
   margin-top: 1.43em;
   color: rgb(163, 85, 124);
   font-family: "Bree Serif", serif;
 }
-.sparkle {
-  width: 1.12em;
-}
+
 
 /*Botón de LO QUE HAGO*/
 .boton {
@@ -144,6 +151,7 @@ header {
   margin-top: 2.5em;
   background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
   text-decoration: none;
+  box-shadow: 1px 2px 25px 1px white;
   font-family: "Bree Serif", serif;
   letter-spacing: 0.06em;
 }
@@ -233,7 +241,7 @@ header {
   color: rgb(252, 250, 251);
   font-family: "Karantina", cursive;
   letter-spacing: 0.06em;
-  padding: 2em 2.5em 2em;
+  padding: 2em 0.9em 2em;
   text-transform: uppercase;
 }
 
@@ -252,17 +260,17 @@ header {
 /** INICIO DE MIS PROYECTOS **/
 .seccion3 {
   background-color: #fff;
-  padding: 0em 0.31em 9.37em;
+  padding: 0em 0.31em 9em;
 }
-.main2 {
-  padding: 3.12em 0.31em 9.37em;
+.seccion3 .main2 {
+  padding: 3.1em 0em 9.37em;
   margin: 0 auto;
   width: 100%;
   text-align: center;
   max-width: 1100px;
 }
 
-.grid2 {
+.seccion3 .main2 .grid2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -313,6 +321,7 @@ header {
   background-color: #f6f6f8;
 }
 
+
 .columna {
   width: 60%;
   display: flex;
@@ -332,11 +341,24 @@ header {
 }
 
 .social-media-item {
-  display: block;
+  display: flex;
   list-style: none;
   margin-top: 45px;
   font-size: 20px;
   font-family: "Bree Serif", serif;
+  align-items: center;
+  
+}
+.social-media-item .link-social-media{
+  text-decoration: none;
+  border-radius: 0.9em 1em;
+  color: black;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+
+  
 }
 .fa-instagram,
 .fa-github-alt,
@@ -347,14 +369,15 @@ header {
   background-color: white;
   color: rgba(57, 21, 219, 0.966);
   border-radius: 1em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-right: 10px;
-  padding: 6px 6px 6px;
+  padding: 0.3em;
   border: 1px solid white;
 }
 
-.social-media-item:hover {
+.social-media-item:hover .link-social-media {
   color: violet;
+
 }
 
 .fa-instagram:hover,
@@ -367,51 +390,51 @@ header {
 
 /** ESCRIBEME **/
 .div-escribeme {
-  padding-left: 15px;
+  padding-left: 0.93em;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 .titulof {
   font-family: "Bree Serif", serif;
-  margin-bottom: 30px;
+  margin-bottom: 1.87em;
   font-size: 3em;
 }
 .parrafocontacto {
   font-family: "Bree Serif", serif;
-  margin-top: 35px;
+  margin-top:  2.18em;
 }
 .nombreYapellido {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 .apellidoform {
-  margin-left: 30px;
+  margin-left: 1.875em;
 }
 .e-mail {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 .msg {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 textarea,
 input {
   display: block;
-  padding: 10px 17px;
+  padding: 0.625em 1.06em;
   outline: none;
   width: 90%;
-  border-radius: 30px;
+  border-radius: 1.875em;
   background-color: #f0f3f3ea;
   border: 1px solid #f3efef;
-  box-shadow: 0px 1px 1px 1px rgb(219, 218, 218);
+  box-shadow: 0em 0.06em 0.06em 0.06em rgb(219, 218, 218);
   font-family: "Bree Serif", serif;
 }
 input:focus,
 textarea:focus {
-  box-shadow: 0 0px 3px 1px rgba(57, 21, 219, 0.966);
+  box-shadow: 0 0px 0.18em 0.06em rgba(57, 21, 219, 0.966);
   transition: 0.9s;
 }
 
@@ -472,6 +495,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
   }
   .seccion2 {
     align-items: center;
@@ -487,16 +512,42 @@ footer {
   }
 
   .item2 {
-    width: 26%;
+    width: 26.63%;
   }
 
   .main2 {
     max-width: 1100px;
   }
   .imagenuno {
-    max-width: 800px;
+    max-width: 500px;
+  
   }
-}
+  .seccion3 .main2 .grid2 .item2{
+  width: 42.4%;
+  }
+  .columna{
+    flex-direction: column;
+    padding: 5em 1em 5em;
+    border: 0;
+    width: 100%;
+  }
+  .links-social-media{
+    text-align: center;
+    font-size: 1em;
+
+  }
+  .div-contactame{
+    width: 100%;
+    margin-bottom: 4em;
+    text-align: center;
+  }
+  .div-escribeme{
+    width: 100%;
+  }
+   }
+
+ 
+
 
 @media (max-width: 920px) {
   .item1 {
@@ -527,4 +578,48 @@ footer {
     height: 100%;
     background-image: url(../imagenes/fondofrida.jpg);
   }
+  .links-social-media{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .links-social-media .social-media-item{
+    width: 50%;
+ 
+  }
 }
+@media (max-width: 700px) {
+  .seccion3 .grid2{
+    flex-direction: column;
+
+  }
+
+.grid2 .item2{
+  width: 50%;
+}
+ }
+
+ @media (max-width: 580px){
+
+
+  .division1{
+    flex-direction: column;
+    font-size: 1em;
+  }
+   .seccion1{
+     background-color: black;
+   }
+   .btn{
+     padding: 0.3em 0.7em 0.3em;
+   }
+
+   .sectionq{
+     background-image: url(../imagenes/fondofrida.jpg);
+     height: 50%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+   }
+ }
+
