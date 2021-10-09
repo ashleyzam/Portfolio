@@ -159,3 +159,35 @@
        width: 100%;
      }
       }
+
+      @media (max-width: 345px) {
+  
+          .seccion1{
+            width: 20%;
+            margin: 0 auto;
+          } 
+          .nombre{
+            font-size: 1.87em;
+          }
+          .division1{
+             width: 500px;
+         
+           }
+          .division2{
+            width: 100%;
+          }
+          .descripcion{
+            font-size: 1em;
+          }
+     
+          .boton{
+            padding: 1;
+            font-size: 1em ;
+            }
+
+         .imagenuno{
+           width: 200px;
+         }
+          }
+        
+      
