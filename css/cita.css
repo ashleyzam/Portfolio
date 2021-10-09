@@ -38,4 +38,13 @@
   }
   
   /** FINAL SECCIÓN CITA FAMOSO **/
-  
+  @media (max-width: 500px) {
+   .sectionq{
+     background-image: none;
+     background-color: rgb(50, 6, 245);
+   }
+   .quote{
+     color: black;
+     font-size: 2em;
+   }
+  }
