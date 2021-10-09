@@ -143,12 +143,12 @@
       
      @media (max-width: 500px) {
       .seccion1{
-        width: 54.9%;
+        width: 50%;
         margin: 0 auto;
         background-color: black;
       } 
       .nombre{
-        font-size: 1.3em;
+        font-size: 2em;
       }
       .division1{
          width: 100%;
@@ -206,9 +206,13 @@
            width: 250px;
          }
           }
-          @media (max-width: 386px){
+          @media (max-width: 340px){
             .seccion1{
-              width: 43%;
+           padding: 1em 3.1em;
             }
           }
-      
+          /*@media (max-width: 380px){
+            .seccion1{
+              width: 100%;
+            }
+          }
