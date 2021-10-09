@@ -142,3 +142,36 @@
     background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
   }
   /** FIN SECCIÓN DE CONTACTO ***/
+
+  @media (max-width: 886px) {
+    .columna{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+     .social-media-item{
+text-align: center;
+    }
+    .parrafocontacto{
+      font-size: 1em;
+    }
+    
+  }
+  @media (max-width: 450px) {
+    .columna{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+     .social-media-item{
+text-align: center;
+    }
+    .parrafocontacto{
+      font-size: 1em;
+    }
+    .titulof{
+      font-size: 2em;
+    }
+    
+  }
+
