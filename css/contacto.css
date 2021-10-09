@@ -158,6 +158,9 @@ text-align: center;
     
   }
   @media (max-width: 450px) {
+    .seccion3{
+      background-color: black;
+    }
     .columna{
       flex-direction: column;
       text-align: center;
@@ -165,7 +168,9 @@ text-align: center;
     }
      .social-media-item{
 text-align: center;
+font-size: 0.5em;
     }
+    
     .parrafocontacto{
       font-size: 1em;
     }
@@ -174,4 +179,14 @@ text-align: center;
     }
     
   }
+  @media (max-width: 412px) {
+    .link-social-media{
+      font-size: 0.1;
+    }
+  }
 
+  @media (max-width: 357px) {
+.link-social-media .social-media-item{
+  font-size: 1px;
+}
+  }
