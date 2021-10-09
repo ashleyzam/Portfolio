@@ -1,0 +1,55 @@
+/*barra de navegación*/
+header {
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(114, 10, 233, 0.966), black);
+    padding: 1.43em 0;
+    width: 100%;
+    box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(252, 252, 252);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  /*ancho de la barra y posicion: flex, flexend*/
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0.1em;
+    width: 100%;
+  }
+  /*margen de la barra*/
+  .menu {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+  }
+  
+  /*padding de palabras de la barra de navegación*/
+  .item {
+    padding: 0.25em 0.3125em;
+    margin-right: 3em;
+    font-family: "Bree Serif", serif;
+  }
+  
+  /*hover contacto*/
+  .contacto1:hover {
+    background-image: linear-gradient(to right, rgba(75, 49, 218, 0.966), black);
+  }
+  .contacto1 {
+    text-decoration: none;
+    background-color: rgb(42, 21, 117);
+    color: white;
+    border-radius: 1.81em;
+    padding: 0.31em 1.56em;
+    letter-spacing: 0.06em;
+    box-shadow: 1px 1px 15px 1px white;
+  }
+  /*hover links principales*/
+  .link:hover {
+    color: rgb(189, 133, 184);
+  }
+  
+  /*quitar propiedades de linea al link*/
+  .link {
+    text-decoration: none;
+    color: rgb(224, 217, 217);
+  }

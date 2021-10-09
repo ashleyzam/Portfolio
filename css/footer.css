@@ -1,0 +1,29 @@
+
+/** INICIO FOOTER **/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 25px 80px;
+    background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
+  
+    color: white;
+  }
+  .social-media-footer {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .social-media {
+    display: flex;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  .social-media-links {
+    display: flex;
+    margin: 5px;
+  }
+  .social-media-foot {
+    list-style: none;
+    margin: 0 5px;
+  }

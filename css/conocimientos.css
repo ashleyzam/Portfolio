@@ -1,0 +1,99 @@
+
+/*Inicio sección mis conocimientos*/
+.seccion2 {
+    background-color: rgb(247, 247, 247);
+    margin-top: 1em;
+  }
+  .main {
+    padding: 3.12em 0.31em 9.37em;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    max-width: 850px;
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .item1 {
+    background-color: white;
+    width: 26%;
+    border: 0.06em solid rgb(194, 193, 193);
+    margin: 0.62em;
+    text-align: center;
+    border-radius: 0.62em;
+    padding: 3.12em 1.25em 3.12em;
+  }
+  .item1:hover {
+    border: 0.08em solid rgb(15, 54, 224);
+    color: rgb(65, 99, 104);
+  }
+  
+  .titulo-conocimientos {
+    margin-top: 2em;
+    font-size: 3.12em;
+    font-weight: bold;
+    font-family: "Bree Serif", serif;
+  }
+  .parrafo-conocimientos {
+    margin-top: 1.87em;
+    font-family: "Bree Serif", serif;
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 3.12em;
+  }
+  .titulo-c {
+    font-family: "Bree Serif", serif;
+    font-size: 1.37em;
+  }
+  .imagen2 {
+    width: 35%;
+    margin: 0.93em;
+  }
+  
+  /**FIN CONOCIMIENTOS**/
+@media (max-width: 1100px) {
+  .seccion2{
+    align-items: center;
+    justify-content: center;
+  }
+   }
+
+
+@media (max-width: 920px){
+
+.item1 {
+  width: 34.3%;
+  
+}
+.main {
+  max-width: 400px;
+  padding: 0;
+}
+ }
+@media (max-width: 380px) {
+  .grid{
+    width: 98%;
+  }
+  .item1{
+    width: 40%;
+  }
+}
+@media (max-width: 393px) {
+  .grid{
+    width: 85%;
+    margin: 0 auto;
+  }
+  .item1{
+    width: 80%;
+  }
+}
+@media (max-width: 276) {
+  .titulo-conocimientos{
+    font-size: 0.1em;
+  }
+  
+}

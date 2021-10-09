@@ -1,0 +1,161 @@
+/*Inicio de sección saludo*/
+.seccion1 {
+
+    margin-top: 5.62;
+    padding: 12em 8em 11em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.86em;
+  
+    /*min-height: 1100px;*/
+  }
+  
+  .division1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1100;
+  }
+  
+   .division2 {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 8.125em;
+  
+    /*border: 1px solid rgb(230, 8, 112);*/
+  }
+  
+  /*saludo dentro del div*/
+  .saludo {
+    font-weight: 700;
+    font-size: 2.18em;
+    margin-top: 0;
+    margin-bottom: 0.62em;
+    color: rgb(90, 87, 87);
+    font-family: "Bree Serif", serif;
+  }
+  /*nombre h1 dentro del div*/
+  .nombre {
+    /*margin-top: 0;*/
+  
+    background: -webkit-linear-gradient(
+      left top,
+      rgb(38, 0, 255),
+      rgb(255, 0, 85)
+    );
+    background: linear-gradient(
+      to bottom right,
+      rgb(38, 0, 255),
+      rgb(255, 0, 85)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.1em;
+    font-family: "Carter One", cursive;
+  }
+  /**/
+  
+  /*primera imagen dentro del primer div*/
+  .imagenuno {
+    width: 100%;
+  max-width: 450px;
+    margin-top: 4em;
+  border-radius: 100%;
+  box-shadow: 0px 2em 5em 1em rgb(25, 29, 236);
+  background-color: rgb(72, 72, 236);
+    /*border: 1px solid rgb(230, 8, 112);*/
+  }
+  /**/
+  .descripcion {
+    font-size: 1.19em;
+    margin-top: 1.43em;
+    color: rgb(163, 85, 124);
+    font-family: "Bree Serif", serif;
+  }
+  
+  
+  /*Botón de LO QUE HAGO*/
+  .boton {
+    padding: 0.62em 1.56em;
+    border-radius: 6.25em;
+    font-weight: 28.12em;
+    color: white;
+    margin-top: 2.5em;
+    background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
+    text-decoration: none;
+    box-shadow: 1px 2px 25px 1px white;
+    font-family: "Bree Serif", serif;
+    letter-spacing: 0.06em;
+  }
+  .boton:hover {
+    background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
+  }
+  /*Final sección saludo**/
+  @media (max-width: 1100px) {
+    .division1 {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 60px;
+      max-width: 550px;
+
+    }
+    .seccion2 {
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .division2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+     }
+
+     @media (max-width: 550px) {
+      .seccion1{
+        width: 50%;
+        margin: 0 auto;
+      } 
+      .nombre{
+        font-size: 2em;
+      }
+      .division1{
+         width: 100%;
+     
+       }
+      .division2{
+        width: 100%;
+      }
+     .imagenuno{
+       width: 100%;
+     }
+      }
+      
+     @media (max-width: 500px) {
+      .seccion1{
+        width: 50%;
+        margin: 0 auto;
+      } 
+      .nombre{
+        font-size: 2.24em;
+      }
+      .division1{
+         width: 100%;
+     
+       }
+      .division2{
+        width: 100%;
+      }
+     .imagenuno{
+       width: 100%;
+     }
+      }
