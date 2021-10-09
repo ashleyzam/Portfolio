@@ -143,22 +143,31 @@
       
      @media (max-width: 500px) {
       .seccion1{
-        width: 46.9%;
+        width: 39%;
         margin: 0 auto;
         background-color: black;
       } 
       .nombre{
-        font-size: 2.24em;
+        font-size: 2.2em;
       }
       .division1{
          width: 100%;
      
        }
+       .descripcion{
+         font-size: 0.9em;
+       }
       .division2{
         width: 100%;
       }
      .imagenuno{
-       width: 100%;
+       width: 250px;
+     }
+     .boton{
+      padding: 2px 15px;
+      background-image: linear-gradient(to right, rgba(226, 22, 158, 0.966), black);     }
+     .saludo{
+       color: rgb(230, 16, 130);
      }
       }
 
