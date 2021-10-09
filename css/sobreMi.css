@@ -162,15 +162,15 @@
      }
       }
 
-      @media (max-width: 345px) {
+      @media (max-width: 356px) {
   
           .seccion1{
-            width: 31.99%;
+            width: 38%;
             margin: 0 auto;
           
           } 
           .nombre{
-            font-size: 1em;
+            font-size: 1.92em;
           }
           .division1{
              width: 300px;
@@ -189,7 +189,7 @@
             }
 
          .imagenuno{
-           width: 200px;
+           width: 250px;
          }
           }
         
