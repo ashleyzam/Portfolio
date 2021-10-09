@@ -42,7 +42,7 @@
     transition: 0.3s;
     display: flex;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 0.2em;
   
     
   }
@@ -168,7 +168,7 @@ text-align: center;
     }
      .social-media-item{
 text-align: center;
-font-size: 0.5em;
+font-size: 0.1em;
     }
     
     .parrafocontacto{
@@ -179,14 +179,14 @@ font-size: 0.5em;
     }
     
   }
-  @media (max-width: 412px) {
+  /*@media (max-width: 412px) {
     .link-social-media{
-      font-size: 0.1;
+      /*font-size: 0.1em;
     }
   }
 
   @media (max-width: 357px) {
 .link-social-media .social-media-item{
-  font-size: 1px;
+  font-size: 0.1em;
 }
   }
