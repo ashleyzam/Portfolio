@@ -42,7 +42,7 @@
     transition: 0.3s;
     display: flex;
     align-items: center;
-    font-size: 0.2em;
+    font-size: 1em;
   
     
   }
@@ -142,25 +142,54 @@
     background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
   }
   /** FIN SECCIÓN DE CONTACTO ***/
-
+  @media (max-width: 900px) {
+      .links-social-media{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     
+      }
+      .social-media-item{
+        width: 90%;
+      }
+     
+ } 
   @media (max-width: 886px) {
     .columna{
       flex-direction: column;
       text-align: center;
       align-items: center;
+      width: 79%;
     }
      .social-media-item{
-text-align: center;
+     text-align: center;
+    }
+    .links-social-media{
+  width: 50%;
+      
+  }
+      
     }
     .parrafocontacto{
       font-size: 1em;
     }
-    
-  }
-  @media (max-width: 450px) {
-    .seccion3{
-      background-color: black;
+    .div-contactame{
+      width: 100%;
+      margin-bottom: 4em;
+      text-align: center;
     }
+    .div-escribeme{
+      width: 100%;
+      text-align: left;
+      align-items: center;
+      justify-content: center;
+    }
+    input, textarea{
+      width: 80%;
+  
+    }
+  
+  }
     .columna{
       flex-direction: column;
       text-align: center;
@@ -179,9 +208,10 @@ font-size: 0.1em;
     }
     
   }
-  /*@media (max-width: 412px) {
+  /*
+  @media (max-width: 412px) {
     .link-social-media{
-      /*font-size: 0.1em;
+      font-size: 0.1em;
     }
   }
 

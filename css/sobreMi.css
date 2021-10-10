@@ -45,7 +45,7 @@
   .nombre {
     /*margin-top: 0;*/
   
-    background: -webkit-linear-gradient(
+    background: linear-gradient(
       left top,
       rgb(38, 0, 255),
       rgb(255, 0, 85)
@@ -120,6 +120,7 @@
       text-align: center;
     }
      }
+    
 
      @media (max-width: 550px) {
       .seccion1{
@@ -143,7 +144,7 @@
       
      @media (max-width: 500px) {
       .seccion1{
-        width: 48%;
+        width: 43%;
         margin: 0 auto;
         background-color: black;
       } 

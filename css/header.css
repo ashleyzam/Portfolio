@@ -7,7 +7,7 @@ header {
     box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(252, 252, 252);
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
   }
   /*ancho de la barra y posicion: flex, flexend*/
   .nav {
@@ -51,5 +51,5 @@ header {
   /*quitar propiedades de linea al link*/
   .link {
     text-decoration: none;
-    color: rgb(224, 217, 217);
+    color: white;
   }

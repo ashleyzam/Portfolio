@@ -67,7 +67,7 @@
 @media (max-width: 920px){
 
 .item1 {
-  width: 34.3%;
+  width: 35%;
   background-color: black;
   box-shadow: 0px 5px 20px 1px blue;
   border: none;
@@ -78,45 +78,83 @@
 }
 .titulo-c{
   color: white;
+
 }
-.main {
-  width: 90%;
+  
+.main { 
+  max-width: 400px;
 }
 .titulo-conocimientos{
   font-size: 2em;
   color: blue;
-}
  }
+}
+@media (max-width: 480px){
+   .main{
+     width: 300px;
+   }
+  .item1{
+    width: 100%;
+  }
+}
+/*
+ @media (max-width: 800px) {
+  .main{
+       width: 70%;
+  }
+  .item1{
+    width: 50%;
+    max-width: 220px;
+  }
+  */
+/*
+  @media (max-width: 700px) {
 
+    .grid{
+      width: 100%;
+    }
+    .item1{
+      width: 50%;
+  
+    }
+    .main{
+      width: 100%;
+      max-width: 150px;
+    }
+    
+  }
+
+  @media (max-width: 400px) {
+    .seccion2{
+      margin: 0;
+  padding-top: 3em;
+  padding-bottom: 3em;
+    }
+    .main{
+      padding: 0;
+    }
+    .grid{
+      width: 85%;
+      margin: 0 auto;
+    }
+    .titulo-conocimientos{
+      font-size: 1.9em;
+    }
+    .item1{
+      width: 80%;
+    }
+  }
 
 @media (max-width: 380px) {
   .grid{
-    width: 98%;
+    width: 90%;
   }
   .item1{
     width: 40%;
   }
 }
-@media (max-width: 400px) {
-  .seccion2{
-    margin: 0;
-padding-top: 3em;
-padding-bottom: 3em;
-  }
-  .main{
-    padding: 0;
-  }
-  .grid{
-    width: 85%;
-    margin: 0 auto;
-  }
-  .titulo-conocimientos{
-    font-size: 1.9em;
-  }
-  .item1{
-    width: 80%;
-  }
 }
+
 @media (max-width: 276) {
   .titulo-conocimientos{
     font-size: 0.1em;
