@@ -1,4 +1,6 @@
-/** INICIO DE MIS PROYECTOS **/
+/************************************************************************/
+/***********************INICIO DE MIS PROYECTOS**************************/
+/************************************************************************/
 .seccion3 {
   background-color: #fff;
   padding: 0em 0.31em 9em;
@@ -24,8 +26,10 @@
   margin: 0.6em;
   text-align: center;
   border-radius: 0.6em;
-  padding: 6.25em 1.56em 6.25em;
-}
+  padding: 2em 1em 2em;
+  box-shadow: 0em 0.2em 1em 0.4em gray ;
+  margin: 0.6em;
+ }
 
 .tituloprojects {
   margin-top: 1.5em;
@@ -33,26 +37,54 @@
   font-weight: bold;
   font-family: "Bree Serif", serif;
 }
+.titulo-d{
+  font-size: 1em;
+  font-family: "Bree Serif", serif;
+
+}
 .parrafoprojects {
   margin-top: 2em;
   font-family: "Bree Serif", serif;
-  font-size: 16px;
+  font-size: 1em;
   color: gray;
   margin-bottom: 2em;
 }
 
 .item2:hover {
-  border: 1px solid rgb(216, 70, 143);
-  color: rgb(235, 0, 129);
+  box-shadow: 0em 0.2em 2em 0.2em blue ;
+  color: rgb(49, 8, 230);
 }
-.imagen3 {
-  width: 150px;
-  height: 80px;
-  margin: 15px;
+.item2 .imagen3 {
+  width: 96%;
+
 }
+.imagenp{
+  width: 100%;
+  padding: 2em 1em 2em;
+}
+.aprojects{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
 
-/** FINAL SECCIÓN MIS PROYECTOS**/
+}
+.titulo-d{
+  font-family: "Bree Serif", serif; 
+  font-size: 1em;
+  margin-top: 1em;
+  color: black;
+}
+/**********************************************/
+/*********FINAL DE MIS PROYECTOS***************/
+/***********************************************/
 
+
+
+/*********************************************/
+/*********MEDIA QUERY DE MIS PROYECTOS********/
+/*********************************************/
 @media (max-width: 1100px) {
   .seccion3 {
     background-color: black;
@@ -60,9 +92,13 @@
   .tituloprojects {
     color: blue;
   }
+ 
 }
 
 @media (max-width: 900px) {
+  .titulo-d{
+    color: white;
+  }
   .item2 {
     align-items: center;
     width: 47%;
@@ -79,6 +115,10 @@
   .imagen3{
     width: 80%;
     height: 80%;
+  }
+  .parrafoprojects{
+    color: rgb(163, 85, 124);
+    font-size: 1.4em;
   }
 }
 

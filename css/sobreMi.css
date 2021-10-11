@@ -26,8 +26,7 @@
     align-items: flex-start;
     text-align: left;
     margin-top: 8.125em;
-  
-    /*border: 1px solid rgb(230, 8, 112);*/
+
   }
   
   /*saludo dentro del div*/
@@ -66,9 +65,9 @@
   max-width: 450px;
     margin-top: 4em;
   border-radius: 100%;
-  box-shadow: 0px 2em 5em 1em rgb(25, 29, 236);
+  box-shadow: 0em 2em 5em 1em rgb(25, 29, 236);
   background-color: rgb(72, 72, 236);
-    /*border: 1px solid rgb(230, 8, 112);*/
+  
   }
   /**/
   .descripcion {
@@ -88,7 +87,7 @@
     margin-top: 2.5em;
     background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
     text-decoration: none;
-    box-shadow: 1px 2px 25px 1px white;
+    box-shadow: 0.0625em 0.12em 1.56em 0.062em white;
     font-family: "Bree Serif", serif;
     letter-spacing: 0.06em;
   }
@@ -103,7 +102,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin-bottom: 60px;
+      margin-bottom: 3.75em;
   
 
     }
@@ -127,6 +126,7 @@
       .seccion1{
         width: 100%;
         margin: 0 auto;
+      
       } 
       .nombre{
         font-size: 2em;
@@ -161,6 +161,7 @@
        }
       .division2{
         width: 100%;
+        margin: 0;
       }
      .imagenuno{
        width: 250px;
@@ -217,8 +218,4 @@
            padding: 1em 3.1em;
             }
           }
-          /*@media (max-width: 380px){
-            .seccion1{
-              width: 100%;
-            }
-          }
+      

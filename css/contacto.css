@@ -1,4 +1,4 @@
-/** INICIO SECCIÓN DE CONTACTO **/
+/********INICIO SECCIÓN DE CONTACTO*********/
 .contactsection {
     display: flex;
     justify-content: center;
@@ -10,32 +10,33 @@
   
   .cont {
     display: flex;
+    padding: 1.5em 2.5em 1.5em;
     background-color: white;
-    padding: 6.25em 9em;
-   
     text-align: left;
     border: 0.0875em solid rgb(202, 196, 196);
     margin:  0.9375em;
     border-radius:  0.9375em;
  
   }
-  /** CONTACTAME **/
+  /************************/
+  /******CONTACTAME******/
   
   .div-contactame {
     padding-right: 0.93em;
     width: 50%;
     text-align: left;
   }
-  
+  /*********ITEM LIST*********/
   .social-media-item {
     display: flex;
     list-style: none;
-    margin-top: 2.85em;
+    margin-top: 1.4em;
     font-size: 1.25em;
     font-family: "Bree Serif", serif;
     align-items: center;
     
   }
+  /**********LINK**********/
  .link-social-media{
     text-decoration: none;
     border-radius: 0.9em 1em;
@@ -43,10 +44,13 @@
     transition: 0.3s;
     display: flex;
     align-items: center;
-    font-size: 0.9em;
-  
-    
+    font-size: 0.8em;
+ 
   }
+  /***********************/
+
+
+  /******ICONOS***********/
   .fa-instagram,
   .fa-github-alt,
   .fa-linkedin-in,
@@ -61,13 +65,14 @@
     padding: 0.3em;
     border: 0.0625em solid white;
   }
+  /*************************************/
 
-  
+
+  /**********HOVER***********/
   .social-media-item:hover .link-social-media {
     color: violet;
   
   }
-  
   .fa-instagram:hover,
   .fa-github-alt:hover,
   .fa-linkedin-in:hover,
@@ -75,8 +80,9 @@
     color: white;
     background-color: rgba(57, 21, 219, 0.966);
   }
+   /*********************************************/
   
-  /** ESCRIBEME **/
+  /**********ESCRIBEME*******/
   .div-escribeme {
     padding-left: 0.93em;
     width: 50%;
@@ -91,10 +97,10 @@
   .parrafocontacto {
     font-family: "Bree Serif", serif;
   }
-  .nombreYapellido {
+  .nombreapellido {
     display: flex;
     margin-bottom: 1.25em;
-;  }
+  }
   .apellidoform {
     margin-left: 1.875em;
   }
@@ -112,7 +118,7 @@
     display: block;
     padding: 0.625em 1.06em;
     outline: none;
-    width: 90%;
+    width: 100%;
     border-radius: 1.875em;
     background-color: #f0f3f3ea;
     border: 0.062em solid #f3efef;
@@ -142,11 +148,15 @@
   .btn:hover {
     background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
   }
-  /** FIN SECCIÓN DE CONTACTO ***/
+  /*************FIN SECCIÓN DE CONTACTO**********************************************/
+
+
+  /*******INICIO MEDIA QUERY CONTACTO************/
   @media (max-width: 1100px) {
     .contactsection{
       background-color: black;
     }
+  }
   @media (max-width: 900px) {
     .contactsection{
       background-color: black;
@@ -179,7 +189,7 @@
   
     }
     .link-social-media{
-      font-size: 0.62em;
+      font-size: 0.59em;
       color: white;
     }
     .div-contactame{
@@ -199,19 +209,30 @@
 
      @media (max-width: 532px) {
        .cont{
-         padding: 1em 3em 1em;
+         width: 100%;
+         padding: 1em 2em;
+       }
+       
+       .titulof{
+         font-size: 2em;
        }
        .links-social-media{
          flex-direction: column;
          
        }
        .link-social-media{
-        font-size: 0.74em;
+        font-size: 0.6em;
        }
        .apellidoform{
          margin: 0;
        }
-       .nombreYapellido{
-         flex-direction: column;
+       label{
+         color: white;
+         margin-top: 0.8em;
        }
-     }
+       .nombreapellido{
+         flex-direction: column;
+       
+        }
+       }
+       /*******INICIO MEDIA QUERY CONTACTO************/

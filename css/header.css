@@ -28,12 +28,24 @@ header {
     padding: 0.25em 0.3125em;
     margin-right: 3em;
     font-family: "Bree Serif", serif;
+   
   }
   
   /*hover contacto*/
+  .contacto1:link{
+    color: white;
+  }
+  .contacto1:visited{
+    color: white;
+  }
   .contacto1:hover {
     background-image: linear-gradient(to right, rgba(75, 49, 218, 0.966), black);
   }
+  .contacto1:active{
+    color: yellow;
+    background-color: seagreen;
+  }
+  
   .contacto1 {
     text-decoration: none;
     background-color: rgb(42, 21, 117);
@@ -41,15 +53,35 @@ header {
     border-radius: 1.81em;
     padding: 0.31em 1.56em;
     letter-spacing: 0.06em;
-    box-shadow: 1px 1px 15px 1px white;
+    box-shadow: 0 0.06em 1em 0.06em white;
+
   }
-  /*hover links principales*/
-  .link:hover {
-    color: rgb(189, 133, 184);
-  }
-  
-  /*quitar propiedades de linea al link*/
+   /*quitar propiedades de linea al link*/
   .link {
     text-decoration: none;
     color: white;
   }
+  /*hover links principales*/
+  .link:link{
+    color: white;
+  }
+  .link:visited{
+    color: white;
+  }
+   .link:hover {
+    color: rgb(189, 133, 184);
+  }
+  
+  .link:active{
+    color: yellow;
+    background-color: seagreen;
+  }
+  @media (max-width: 1100px) {
+    header {
+      display: none;
+    }
+  
+   
+   }
+ 
+ 
