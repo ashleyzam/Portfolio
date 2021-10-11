@@ -52,5 +52,10 @@
    color: white;
   
    }
+   @media (max-width: 390px) {
+   .quote{
+     font-size: 1.6em;
+ 
+    }
   }
  

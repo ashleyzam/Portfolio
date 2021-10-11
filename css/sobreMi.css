@@ -176,10 +176,13 @@
       @media (max-width: 390px){
         .seccion1{
           width: 100%;
+          padding: 0;
         }
         .nombre{
-          font-size: 1.44em;
+          font-size: 1.4em;
         }
+       
+      
       }
       @media (max-width: 359px) {
          

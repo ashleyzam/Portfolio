@@ -218,9 +218,18 @@
        
        .titulof{
          font-size: 2em;
+         text-align: center;
+       }
+       .parrafocontacto{
+         text-align: center;
+       }
+       textarea, input{
+         padding: 0.4em;
        }
        .links-social-media{
          flex-direction: column;
+         justify-content: center;
+         align-items: center;
          
        }
        .link-social-media{
