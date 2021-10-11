@@ -235,4 +235,18 @@
        
         }
        }
+       @media (max-width: 340px) {
+        .contactsection{
+          padding: 0;
+        }
+        .cont{
+          width: 600px;
+          padding: 1em;
+        }
+        .parrafocontacto{
+          font-size: 0.8em;
+        }
+        textarea, input{
+         padding: 0.2em;
+        }
        /*******INICIO MEDIA QUERY CONTACTO************/
