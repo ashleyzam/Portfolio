@@ -173,7 +173,7 @@
        color: rgb(230, 16, 130);
      }
       }
-      @media (max-width: 380px){
+      @media (max-width: 390px){
         .seccion1{
           width: 100%;
         }
