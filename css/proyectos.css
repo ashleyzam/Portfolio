@@ -19,7 +19,7 @@
 }
 .item2 {
   background-color: white;
-  width: 25.3%;
+  width: 31%;
   border: 0.062em solid rgb(194, 193, 193);
   margin: 0.6em;
   text-align: center;
@@ -65,16 +65,26 @@
 @media (max-width: 900px) {
   .item2 {
     align-items: center;
-    width: 39.9%;
+    width: 47%;
+    background-color: black;
+    box-shadow: 0px 5px 20px 1px blue;
+    border: none;
+  }
+  .item2:hover{
+    box-shadow: 0px 2px 20px 8px rgb(226, 36, 131);
   }
   .seccion3 .main2{
     max-width: 705px;
+  }
+  .imagen3{
+    width: 80%;
+    height: 80%;
   }
 }
 
 @media (max-width: 713px) {
   .item2 {
-    width: 36.8%;
+    width: 46.39%;
   }
   .seccion3 .main2{
     max-width: 540px ;

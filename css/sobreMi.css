@@ -1,6 +1,6 @@
 /*Inicio de sección saludo*/
 .seccion1 {
-
+  min-height: 900px;
     margin-top: 5.62;
     padding: 12em 8em 11em;
     display: flex;
@@ -8,8 +8,6 @@
     align-items: center;
     font-size: 0.86em;
     
-  
-    /*min-height: 1100px;*/
   }
   
   .division1 {
@@ -109,6 +107,9 @@
   
 
     }
+    .m{
+      background-color: black;
+    }
     .seccion2 {
       align-items: center;
       justify-content: center;
@@ -124,7 +125,7 @@
 
      @media (max-width: 550px) {
       .seccion1{
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
       } 
       .nombre{
@@ -144,12 +145,12 @@
       
      @media (max-width: 500px) {
       .seccion1{
-        width: 43%;
+        width: 100%;
         margin: 0 auto;
         background-color: black;
       } 
       .nombre{
-        font-size: 2em;
+        font-size: 1.68em;
       }
       .division1{
          width: 100%;
@@ -173,15 +174,16 @@
       }
       @media (max-width: 380px){
         .seccion1{
-          width: 40%;
+          width: 100%;
+        }
+        .nombre{
+          font-size: 1.50em;
         }
       }
       @media (max-width: 359px) {
-          .m{
-            width: 100%;
-          }
+         
           .seccion1{
-            width: 38.8%;
+            width: 100%;
             margin: 0 auto;
     
           

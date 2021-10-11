@@ -2,26 +2,27 @@
 .contactsection {
     display: flex;
     justify-content: center;
-    padding: 100px 30px 120px;
     text-align: center;
+    padding: 10em 4em 12em;
     background-color: #f6f6f8;
   }
   
   
-  .columna {
-    width: 60%;
+  .cont {
     display: flex;
-    text-align: left;
     background-color: white;
-    padding: 100px 64px;
-    border: 1.4px solid rgb(202, 196, 196);
-    margin: 15px;
-    border-radius: 15px;
+    padding: 6.25em 9em;
+   
+    text-align: left;
+    border: 0.0875em solid rgb(202, 196, 196);
+    margin:  0.9375em;
+    border-radius:  0.9375em;
+ 
   }
   /** CONTACTAME **/
   
   .div-contactame {
-    padding-right: 15px;
+    padding-right: 0.93em;
     width: 50%;
     text-align: left;
   }
@@ -29,20 +30,20 @@
   .social-media-item {
     display: flex;
     list-style: none;
-    margin-top: 45px;
-    font-size: 20px;
+    margin-top: 2.85em;
+    font-size: 1.25em;
     font-family: "Bree Serif", serif;
     align-items: center;
     
   }
-  .social-media-item .link-social-media{
+ .link-social-media{
     text-decoration: none;
     border-radius: 0.9em 1em;
     color: black;
     transition: 0.3s;
     display: flex;
     align-items: center;
-    font-size: 1em;
+    font-size: 0.9em;
   
     
   }
@@ -56,10 +57,11 @@
     color: rgba(57, 21, 219, 0.966);
     border-radius: 1em;
     font-size: 1.5em;
-    margin-right: 10px;
+    margin-right:  0.62em;
     padding: 0.3em;
-    border: 1px solid white;
+    border: 0.0625em solid white;
   }
+
   
   .social-media-item:hover .link-social-media {
     color: violet;
@@ -83,17 +85,16 @@
   }
   .titulof {
     font-family: "Bree Serif", serif;
-    margin-bottom: 1.87em;
+    margin-bottom: 1em;
     font-size: 3em;
   }
   .parrafocontacto {
     font-family: "Bree Serif", serif;
-    margin-top:  2.18em;
   }
   .nombreYapellido {
     display: flex;
     margin-bottom: 1.25em;
-  }
+;  }
   .apellidoform {
     margin-left: 1.875em;
   }
@@ -114,27 +115,27 @@
     width: 90%;
     border-radius: 1.875em;
     background-color: #f0f3f3ea;
-    border: 1px solid #f3efef;
+    border: 0.062em solid #f3efef;
     box-shadow: 0em 0.06em 0.06em 0.06em rgb(219, 218, 218);
     font-family: "Bree Serif", serif;
   }
   input:focus,
   textarea:focus {
-    box-shadow: 0 0px 0.18em 0.06em rgba(57, 21, 219, 0.966);
+    box-shadow: 0 0 0.18em 0.06em rgba(57, 21, 219, 0.966);
     transition: 0.9s;
   }
   
   label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.8em;
     font-weight: 400;
     font-family: "Bree Serif", serif;
   }
   
   .btn {
     background-image: linear-gradient(to right, rgba(57, 21, 219, 0.966), black);
-    padding: 5px 35px;
-    border-radius: 15px;
+    padding: 0.31em 2.18em;
+    border-radius: 0.9em;
     color: white;
     border: none;
   }
@@ -142,81 +143,75 @@
     background-image: linear-gradient(to right, rgba(219, 21, 193, 0.966), black);
   }
   /** FIN SECCIÓN DE CONTACTO ***/
+  @media (max-width: 1100px) {
+    .contactsection{
+      background-color: black;
+    }
   @media (max-width: 900px) {
-      .links-social-media{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-     
-      }
-      .social-media-item{
-        width: 90%;
-      }
-     
- } 
-  @media (max-width: 886px) {
-    .columna{
+    .contactsection{
+      background-color: black;
+    }
+    .cont {
       flex-direction: column;
-      text-align: center;
-      align-items: center;
-      width: 79%;
+      padding: 5em 2.5em 7.5em;
+      border: none;
+      justify-content: center;
+      align-items:center;
+      box-shadow: 0 1px 20px 10px rgb(7, 7, 122);
+      background-color: black;
+    
     }
-     .social-media-item{
-     text-align: center;
-    }
+    
     .links-social-media{
-  width: 50%;
-      
-  }
-      
+      display: flex;   
+      flex-wrap: wrap;
+   
+
     }
-    .parrafocontacto{
-      font-size: 1em;
+   .titulof{
+     color: white;
+   }
+   .parrafocontacto{
+     color: rgb(163, 85, 124);
+   }
+    .social-media-item{
+      width: 50%;
+  
+    }
+    .link-social-media{
+      font-size: 0.62em;
+      color: white;
     }
     .div-contactame{
-      width: 100%;
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    .div-escribeme{
-      width: 100%;
-      text-align: left;
-      align-items: center;
-      justify-content: center;
-    }
-    input, textarea{
-      width: 80%;
-  
-    }
-  
-  }
-    .columna{
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-    }
-     .social-media-item{
-text-align: center;
-font-size: 0.1em;
-    }
-    
-    .parrafocontacto{
-      font-size: 1em;
-    }
-    .titulof{
-      font-size: 2em;
-    }
-    
-  }
-  /*
-  @media (max-width: 412px) {
-    .link-social-media{
-      font-size: 0.1em;
-    }
-  }
 
-  @media (max-width: 357px) {
-.link-social-media .social-media-item{
-  font-size: 0.1em;
-}
-  }
+      width: 100%;
+      margin-bottom: 3.5em;
+    }
+     .div-escribeme{
+       width: 100%;
+      }
+      .btn{
+        background-image: none;
+        background-color:rgb(10, 15, 255);
+      }
+  
+       }
+
+     @media (max-width: 532px) {
+       .cont{
+         padding: 1em 3em 1em;
+       }
+       .links-social-media{
+         flex-direction: column;
+         
+       }
+       .link-social-media{
+        font-size: 0.74em;
+       }
+       .apellidoform{
+         margin: 0;
+       }
+       .nombreYapellido{
+         flex-direction: column;
+       }
+     }
