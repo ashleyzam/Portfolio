@@ -208,7 +208,10 @@
        }
 
      @media (max-width: 532px) {
-       .cont{
+      .contactsection{
+        padding: 0;
+      } 
+      .cont{
          width: 100%;
          padding: 1em 2em;
        }
@@ -235,7 +238,7 @@
        
         }
        }
-       @media (max-width: 340px) {
+       @media (max-width: 380px) {
         .contactsection{
           padding: 0;
         }
@@ -249,4 +252,5 @@
         textarea, input{
          padding: 0.2em;
         }
+         }
        /*******INICIO MEDIA QUERY CONTACTO************/
