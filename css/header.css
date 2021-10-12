@@ -4,7 +4,7 @@ header {
     background-image: linear-gradient(to right, rgba(114, 10, 233, 0.966), black);
     padding: 1.43em 0;
     width: 100%;
-    box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(252, 252, 252);
+    box-shadow: 0.31em 0.12em 1.87em 0.12em rgb(139, 8, 89);
     position: fixed;
     top: 0;
     z-index: 2;
