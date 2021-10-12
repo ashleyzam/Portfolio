@@ -30,7 +30,7 @@ footer {
     color: white;
   }
   .link1:visited{
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .link1:hover{
     color: violet;
@@ -41,7 +41,7 @@ footer {
   }
    .link1{
    text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1em;
     color: white;
   
   }

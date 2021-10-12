@@ -5,6 +5,7 @@
     text-align: center;
     padding: 10em 4em 12em;
     background-color: #f6f6f8;
+    box-shadow: -1.56em  -0.31em 1.37em -0.5em rgba(170, 164, 164, 0.53) inset;
   }
   
   
@@ -34,7 +35,7 @@
     font-size: 1.25em;
     font-family: "Bree Serif", serif;
     align-items: center;
-    
+
   }
   /**********LINK**********/
  .link-social-media{
@@ -45,6 +46,8 @@
     display: flex;
     align-items: center;
     font-size: 0.8em;
+  
+    
  
   }
   /***********************/
@@ -73,12 +76,16 @@
     color: violet;
   
   }
+ 
+
   .fa-instagram:hover,
   .fa-github-alt:hover,
   .fa-linkedin-in:hover,
   .fa-envelope:hover {
     color: white;
     background-color: rgba(57, 21, 219, 0.966);
+    
+
   }
    /*********************************************/
   
@@ -156,6 +163,7 @@
     .contactsection{
       background-color: black;
     }
+    
   }
   @media (max-width: 900px) {
     .contactsection{
@@ -261,4 +269,4 @@
           padding: 0;
         }
          }
-       /*******INICIO MEDIA QUERY CONTACTO************/
+       /*******FINAL MEDIA QUERY CONTACTO************/

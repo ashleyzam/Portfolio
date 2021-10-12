@@ -3,6 +3,7 @@
 .seccion2 {
     background-color: rgb(247, 247, 247);
     margin-top: 1em;
+    box-shadow: -1.56em  -0.31em 1.37em -0.5em rgba(143, 139, 139, 0.53) inset;
   }
   .main {
     padding: 3.12em 0.31em 9.37em;
@@ -48,12 +49,13 @@
     margin-bottom: 3.12em;
   }
   .titulo-c {
+    margin-top: 1em;
     font-family: "Bree Serif", serif;
     font-size: 1.37em;
   }
-  .imagen2 {
-    width: 35%;
-    margin: 0.93em;
+  .colored {
+  font-size: 5em;
+    text-align: center;
   }
   
   /**FIN CONOCIMIENTOS**/

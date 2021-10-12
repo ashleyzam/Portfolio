@@ -1,61 +1,84 @@
-
 /*INICIO SECCIÓN CITA FAMOSO**/
 .sectionq {
-    padding: 5.62em 2.5em 6.56em;
-    text-align: center;
-    height: 100%;
-    background-image: url("../imagenes/fondofrida.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+  padding: 5.62em 2.5em 6.56em;
+  height: 100%;
+  background-image: url("../imagenes/fondofrida.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: -1.56em -0.31em 1.37em -0.5em rgba(10, 10, 10, 0.53) inset;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.quote {
+  width: 80%;
+  font-size: 3.31em;
+  color: rgb(252, 250, 251);
+  font-family: "Karantina", cursive;
+  letter-spacing: 0.06em;
+  padding: 2em 0.9em 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.comilla {
+  font-size: 2em;
+  color: black;
+}
+
+.quoteautor {
+  font-size: 4em;
+  font-weight: 900;
+  color: black;
+  font-family: "Ephesis", cursive;
+  text-align: right;
+}
+/** FINAL SECCIÓN CITA FAMOSO **/
+
+/*********INICIO QUERY CITA*************/
+@media (max-width: 1100px) {
   .quote {
-    width: 80%;
-    font-size: 3.31em;
-    color: rgb(252, 250, 251);
-    font-family: "Karantina", cursive;
-    letter-spacing: 0.06em;
-    padding: 2em 0.9em 2em;
-    text-transform: uppercase;
+    font-size: 1.8em;
+    padding: 0;
   }
-  
-  .comilla {
-    font-size: 2em;
-    color: black;
-  }
-  
   .quoteautor {
-    font-size: 4em;
-    font-weight: 900;
-    color: black;
-    font-family: 'Ephesis', cursive;
-   
+    color: white;
+    font-size: 2.5em;
+    text-align: right;
   }
-  
-  /** FINAL SECCIÓN CITA FAMOSO **/
-  @media (max-width: 500px) {
- 
-   .quote{
-    
-     font-size: 2em;
-   }
-   .quoteautor{
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-   color: white;
-  
-   }
-   @media (max-width: 390px) {
-   .quote{
-     font-size: 1.6em;
- 
+  @media (max-width: 700px) {
+    .quote {
+      font-size: 1.8em;
+      padding: 0;
+    }
+    .quoteautor {
+      color: white;
+      font-size: 2.5em;
+      text-align: right;
     }
   }
- 
+  @media (max-width: 500px) {
+    .quote {
+      padding: 0.5em;
+      font-size: 2em;
+    }
+  }
+  .quoteautor {
+    text-shadow: 5px 5px 4px black;
+    color: white;
+    font-size: 2.5em;
+    text-align: right;
+  }
+}
+
+@media (max-width: 390px) {
+  .quote {
+    font-size: 1.8em;
+  }
+}

@@ -4,9 +4,10 @@
 .seccion3 {
   background-color: #fff;
   padding: 0em 0.31em 9em;
+  box-shadow: -1.56em  -0.31em 1.37em -0.5em rgba(170, 164, 164, 0.53) inset;
 }
 .seccion3 .main2 {
-  padding: 3.1em 0em 9.37em;
+  padding: 3.1em 0em 0em;
   margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -60,7 +61,7 @@
 }
 .imagenp{
   width: 100%;
-  padding: 2em 1em 2em;
+  padding: 1.5em 1em 2em;
 }
 .aprojects{
   text-decoration: none;
