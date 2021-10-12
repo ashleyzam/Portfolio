@@ -1,13 +1,13 @@
 /*Inicio de sección saludo*/
 .seccion1 {
-  min-height: 900px;
+  min-height: 950px;
     margin-top: 5.62;
     padding: 12em 8em 11em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.86em;
-    
+   
     
   }
   
@@ -104,17 +104,14 @@
       align-items: center;
       text-align: center;
       margin-bottom: 3.75em;
-  
-
+    }
+    .seccion1{
+      box-shadow: -1.56em  0em 1.37em -0.5em rgba(170, 164, 164, 0.53) inset;
     }
     .m{
       background-color: black;
     }
-    .seccion2 {
-      align-items: center;
-      justify-content: center;
-      
-    }
+
     .division2 {
       flex-direction: column;
       align-items: center;
