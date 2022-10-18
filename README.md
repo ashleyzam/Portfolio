@@ -1,5 +1,5 @@
 # Proyecto Portfolio Ada by Ashley.
- _¡Hola!_ Este es el primer proyecto en mi trayecto de la carrera _Frontend_ en _Ada Itw_. Se trata de mi portfolio personal con todas las materias que iré aprendiendo a lo largo
+ _¡Hola!_ Este es el primer proyecto en mi trayecto de la carrera _Frontend_ en _Ada Itw_. Se trata de mi portfolio personal con todas las tecnologías que iré aprendiendo a lo largo
 de este proceso. Para lograrlo, usé mis conocimientos en HTML5 y CSS3 aprendidos en los últimos meses de cursada de la mano de mi profesor José Condori. El resultado: un sitio web adaptable a los diferentes dispositivos smart.
 
 Realicé este proyecto a partir de un diseño guía que nos ofrecen en Ada, podes verlo acá: https://frontend-proyecto-portfolio.adaitw.org/
